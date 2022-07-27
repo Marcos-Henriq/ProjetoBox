@@ -187,7 +187,7 @@
                 <h3 class="title-card">Cadastro</h3>
             </div>
 
-            <div onclick="troca('sisComerciante', '')" class="card">
+            <div class="card">
                 <div class="card_yellow"><img src="/img/menu-dots.svg" alt=""></div>
                 <h3 class="title-card">Outros</h3>
             </div>
@@ -198,30 +198,30 @@
     <!-- Sistema comerciante Cadastro -->
     <div id="sistemaComercianteCadastro" class="wrapper">
         <div class="container_cadastro_comer">
-            <div class="card">
+            <div  onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/users-profile-group.svg" alt=""></div>
                 <h3 class="title-card">Nova Integração</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/User, Profile.svg"></div>
                 <h3 class="title-card">Configuração de Integração</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/store-key-lcok.svg" alt=""></div>
                 <h3 class="title-card">Redefinição de senha
                     do usuário da loja</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/store-user.svg" alt=""></div>
                 <h3 class="title-card">Criação de usuário
                     da loja</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/store-refresh-arrows.svg" alt=""></div>
                 <h3 class="title-card">Alteração de dados
                     básico do comércio</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/store-pin.svg" alt=""></div>
                 <h3 class="title-card">Alteração do endereço do comércio</h3>
             </div>
@@ -232,21 +232,21 @@
     <!-- Sistema comerciante Falha-->
     <div id="comercianteFalha" class="wrapper">
         <div class="container_falha_comer">
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Sistema Comerciante
                     não funciona</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Lentidão no
                     Sistema Comerciante</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Falha na integração</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Falha na criação de
                     pedido manuais</h3>
@@ -255,7 +255,7 @@
                 <div class="card_yellow"><img src="" balt=""></div>
                 <h3 class="title-card">Falha na inserção de saldo</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Falha na utilização do Sistemas</h3>
             </div>
@@ -595,22 +595,22 @@
     <div id="back" class="wrapper">
         <div class="container_hardware">
 
-            <div class="card">
+            <div onclick="troca('back', 'backofficeFalha')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Falha</h3>
             </div>
 
-            <div class="card">
+            <div onclick="troca('back', 'backofficeCadastro')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Cadastro</h3>
             </div>
 
-            <div class="card">
+            <div onclick="troca('back', 'backofficeConfig')"  class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração</h3>
             </div>
 
-            <div class="card">
+            <div onclick="troca('back', 'backofficeOutros')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Outros</h3>
             </div>
@@ -634,24 +634,24 @@
 
     <div id="backofficeFalha" class="wrapper">
         <div class="container_back_falha">
-            <div class="card">
+            <div onclick="troca('backofficeFalha', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Backoffice não funciona</h3>
             </div>
 
-            <div class="card">
+            <div onclick="troca('backofficeFalha', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Lentidão no Backoffice</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeFalha', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Pedido não encontrado</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeFalha', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Comércio não encontrado</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeFalha', 'fim')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Falha na utilização do Backoffice</h3>
             </div>
@@ -672,19 +672,19 @@
 
     <div  id="backofficeCadastro" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div onclick="troca('backofficeCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Criação de usuário</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Alteração de acessos</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Exclusão de usuários</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Redefinição de senha</h3>
             </div>
@@ -719,35 +719,35 @@
 
     <div id="backofficeConfig" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configurações da tabela de destino</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configurações da tabela de taxas</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração de Flags de acessos</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração de Blacklist</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração de Whitelist</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração de Ranking</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração de Roleta Premiada</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeConfig', 'fim')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Configuração de Pontos</h3>
             </div>
@@ -778,31 +778,31 @@
     <!-- Backoffice - Outros -->
     <div id="backofficeOutros" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Financeiro entregador</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Operador logístico/Clã</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Disparo de SMS</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Disparo de Pushs no App</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Solicitação de relatórios</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Financeiro loja</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('backofficeOutros', 'fim')"  class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Registro de ocorrências</h3>
             </div>
