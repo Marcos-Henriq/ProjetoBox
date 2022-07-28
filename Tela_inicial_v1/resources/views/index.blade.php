@@ -435,22 +435,17 @@
                 <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-charging-1.svg" alt=""></div>
                 <h3 class="title-card">Cabo de Energia Desktop</h3>
             </div>
-        </div>
+        </div> 
+        
     </div> 
-    
     <!-- FINAL -- Infra --> 
     
 
     <!-- INICIO -- Processos Administrativos -->
     <div id="proAdmin" class="wrapper">
         <div class="container_adm">
-<<<<<<< HEAD
-            <div onclick="troca('proAdmin', 'pg')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
-=======
             <div class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/User,Profile.svg" alt=""></div>
->>>>>>> c6b841b657b32a3e2c2b948e7e4a01960458c178
                 <h3 class="title-card">Colaborador / Admissão</h3>
             </div>
             <div class="card">
