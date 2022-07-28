@@ -23,7 +23,7 @@
 
 
     <!-- INICIO -- Tela Inicial -->
-    
+
 
     <div id="inicial" class="wrapper">
         <div class="container">
@@ -272,7 +272,7 @@
         <div class="container_Workspace">
             <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="/img/GoogleWorkspaceInicio/user-profile-add-circle.svg" alt=""></div>
-                <h3 class="title-card">Criação de usuário google</h3> 
+                <h3 class="title-card">Criação de usuário google</h3>
             </div>
             <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="/img/GoogleWorkspaceInicio/single-user-minus-delete-remove.svg"></div>
@@ -294,7 +294,7 @@
     </div>
     <!-- FINAL -- Workspace -->
 
-    <!-- INICIO -- Suporte Hardware --> 
+    <!-- INICIO -- Suporte Hardware -->
     <div id="suporteHardware" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('suporteHardware', 'fim')">
@@ -371,7 +371,7 @@
 
     <!-- INICIO -- Acesso cloud -->
 
-    <div id="cloud" class="wrapper"> 
+    <div id="cloud" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('cloud', 'fim')">
                 <div class="card_yellow"><img src="/img/AcessoCloudInicio/Folder, Edit, Rename.svg" alt=""></div>
@@ -439,19 +439,6 @@
     </div>
     <!-- FINAL -- Infra -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- INICIO -- Processos Administrativos -->
     <div id="proAdmin" class="wrapper">
         <div class="container_adm">
@@ -483,20 +470,6 @@
     </div>
     <!-- FINAL -- ADM -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- INICIO -- Sistema box -->
 
     <div id="sistemaBox" class="wrapper">
@@ -512,20 +485,7 @@
         </div>
     </div>
 
-   
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- FALHA -- Sistema box -->
+    <!-- FALHA -- Sistema box -->
 
     <div id="sistemaBoxFalha" class="wrapper">
         <div class="container_hardware">
@@ -539,20 +499,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- OUTROS -- Sistema box -->
 
@@ -578,21 +524,6 @@
     </div>
 
     <!-- FINAL -- Sistema box -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!--INICIO --   office -->
 
@@ -622,18 +553,6 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Backoffice - Falha -->
 
     <div id="backofficeFalha" class="wrapper">
@@ -661,16 +580,7 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    
     <!-- Backoffice - Cadastro -->
 
 
@@ -694,30 +604,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Backoffice - Configurações -->
 
@@ -758,28 +644,8 @@
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Backoffice - Outros -->
+
     <div id="backofficeOutros" class="wrapper">
         <div class="container_hardware">
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
@@ -815,16 +681,14 @@
 
     <!-- FINAL -- BackOffice -->
 
-<!-- 
-    <footer class="footer-main" id="footer" >
-        <p>O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
-            exemplo@boxdelivery.com <a href="">Alterar Conta</a>
-        </p>   
-        
-        </footer> -->
-
-
-
+    <footer class="footer-main">
+        <div class="div-footer">
+            <p>
+                O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
+                exemplo@boxdelivery.com <a href="">Alterar Conta</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 
