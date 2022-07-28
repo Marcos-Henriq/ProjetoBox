@@ -7,16 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/style.css" />
 
-    <title>HOME | BoxDelivery</title>
+    <title>Suporte | BoxDelivery</title>
 </head>
 <script src="/js/scripts.js">
 
 </script>
 
 <body>
-    <header class="header-main">
-
-    </header>
+    <div class="header-form">
+        <a href="/" id="linkHome" class="header-link"><img width="25px" src="/img/bi_arrow-left-short.svg" alt=""><span>Inicio</span></a>
+        <div class="container-route" id="containerRoute">
+        </div>
+    </div>
 
 
 
@@ -49,7 +51,7 @@
             </div>
             <div onclick="troca('inicial', 'suporteHardware')" class="card">
                 <div class="card_yellow"><img src="/img/chip-microchip.svg" alt=""></div>
-                <h3 class="title-card">Suporte Hadware</h3>
+                <h3 class="title-card">Suporte Hardware</h3>
             </div>
             <div onclick="troca('inicial', 'suporteSoftware')" class="card">
                 <div class="card_yellow"><img src="/img/Group.svg" alt=""></div>
@@ -198,7 +200,7 @@
     <!-- Sistema comerciante Cadastro -->
     <div id="sistemaComercianteCadastro" class="wrapper">
         <div class="container_cadastro_comer">
-            <div  onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
+            <div onclick="troca('sistemaComercianteCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="/img/ComercianteCadastro/users-profile-group.svg" alt=""></div>
                 <h3 class="title-card">Nova Integração</h3>
             </div>
@@ -267,23 +269,23 @@
     <!-- INICIO -- Google Workspace -->
     <div id="googleWorkspace" class="wrapper">
         <div class="container_Workspace">
-            <div class="card">
+            <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Criação de usuário google</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Exclusão de usuário google </h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Definição grupos do usuário</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Criação de e-mail processo</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="" balt=""></div>
                 <h3 class="title-card">Exclusão de e-mail de processo</h3>
             </div>
@@ -294,32 +296,32 @@
     <!-- INICIO -- Suporte Hardware -->
     <div id="suporteHardware" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Mouse</h3>
             </div>
 
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Teclado</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Monitor</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">CPU</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Notebook</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Celular</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteHardware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Tablet</h3>
             </div>
@@ -331,32 +333,32 @@
     <!-- INICIO -- Suporte Software -->
     <div id="suporteSoftware" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Configurações diversas</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Instalação software </h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Instalação de
                     impressoras</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Celular - Software</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Tablet - Software</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteSoftware', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Outros - Software</h3>
             </div>
@@ -369,11 +371,11 @@
 
     <div id="cloud" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('cloud', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Liberação a acesso a pastas compartilhadas</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('cloud', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Bloqueio ao acesso a pastas compartilhadas</h3>
             </div>
@@ -386,48 +388,48 @@
 
     <div id="suporteInfra" class="wrapper">
         <div class="container_infra">
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">TV</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card"> Chromecast</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Case Notebook </h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Suporte Notebook</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Filtro de Linha</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Extensão Elétrica</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Cabo HDMI</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Cabo VGA</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Adaptador <br>
                     “HDMI x VGA”</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Mouse Pad</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('suporteInfra', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Cabo de Energia Desktop</h3>
             </div>
@@ -497,16 +499,16 @@
 
     <div id="sistemaBox" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBox', 'sistemaBoxFalha')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Falha</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBox', 'sistemaBoxOutros')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Outros</h3>
             </div>
         </div>
-  </div>
+    </div>
 
     <!-- FALHA -- Sistema box -->
 
@@ -525,11 +527,11 @@
 
     <div id="sistemaBoxFalha" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxFalha', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Sistema não funciona</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxFalha', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>
@@ -554,19 +556,19 @@
 
     <div id="sistemaBoxOutros" class="wrapper">
         <div class="container_hardware">
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Apoio técnico em negociação comercial</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Nova funcionalidade do sistema</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Novo parceiro para integração</h3>
             </div>
-            <div class="card">
+            <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Dúvidas sobre o funcionamento do sistema</h3>
             </div>
@@ -605,7 +607,7 @@
                 <h3 class="title-card">Cadastro</h3>
             </div>
 
-            <div onclick="troca('back', 'backofficeConfig')"  class="card">
+            <div onclick="troca('back', 'backofficeConfig')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Configuração</h3>
             </div>
@@ -670,7 +672,7 @@
     <!-- Backoffice - Cadastro -->
 
 
-    <div  id="backofficeCadastro" class="wrapper">
+    <div id="backofficeCadastro" class="wrapper">
         <div class="container_hardware">
             <div onclick="troca('backofficeCadastro', 'fim')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
@@ -802,7 +804,7 @@
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Financeiro loja</h3>
             </div>
-            <div onclick="troca('backofficeOutros', 'fim')"  class="card">
+            <div onclick="troca('backofficeOutros', 'fim')" class="card">
                 <div class="card_yellow"><img src=""></div>
                 <h3 class="title-card">Registro de ocorrências</h3>
             </div>
@@ -813,7 +815,11 @@
 
 
 
-
+    <footer class="footer-main">
+        <p>O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
+            exemplo@boxdelivery.com <a href="">Alterar Conta</a>
+        </p>
+    </footer>
 </body>
 
 </html>

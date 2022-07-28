@@ -7,9 +7,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-body {
-    scroll-behavior: smooth;
-}
 
 :root {
     /* Color Guidance */
@@ -95,12 +92,11 @@ body {
 }
 
 .wrapper {
-    width: min(1350px, 90vw);
+    width: min(1300px, 90vw);
     min-height: 100vh;
     margin: auto;
     display: flex;
     justify-content: center;
-
     align-items: center;
 }
 
@@ -132,8 +128,8 @@ body {
 
 
 .card {
-    width: min(237px, 90vw);
-    height: 209px;
+    width: min(230px, 90vw);
+    height: 210px;
     background: #ffffff;
     box-shadow: -4px 4px 20px rgba(24, 23, 23, 0.25);
     font-weight: 400;
@@ -160,6 +156,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
+
 }
 
 .card_yellow {
@@ -168,7 +165,7 @@ body {
     justify-content: center;
     width: 80px;
     height: 69px;
-    background: #ffb800;
+    background: var(--primary-yelllow);
     border-radius: 0px;
     margin-left: -1.2em;
     margin-top: -0.3em;
@@ -178,7 +175,7 @@ body {
     font-weight: 350;
 }
 
-img {
+.card_yellow img {
     position: relative;
     width: 40px;
     height: 40px;
@@ -300,16 +297,6 @@ img {
 }
 
 .container_adm {
-  width: 60%;
-  height: 50%;
-  flex-wrap: wrap;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.container_adm{
     width: 60%;
     height: 50%;
     flex-wrap: wrap;
@@ -317,10 +304,20 @@ img {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-  }
+}
 
- 
-  .container_back_falha{
+.container_adm {
+    width: 60%;
+    height: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.container_back_falha {
     width: 100%;
     height: 50%;
     flex-wrap: wrap;
@@ -328,71 +325,91 @@ img {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-  }
+}
 
 
-#appEntregador{
-    display: none;
-}
-#falha{
-    display: none;
-}
-#cadastro{
-    display: none;
-}
-#financeiro{
-    display: none;
-}
-#sisComerciante{
-    display: none;
-}
-#sistemaComercianteCadastro{
-    display: none;
-}
-#comercianteFalha{
-    display: none;
-}
-#googleWorkspace{
-    display: none;
-}
-#suporteHardware{
-    display: none;
-}
-#suporteSoftware{
-    display: none;
-}
-#cloud{
+#appEntregador {
     display: none;
 }
 
-#proAdmin{
-    display: none;
-}#sistemaBox{
+#falha {
     display: none;
 }
-#sistemaBoxFalha{
+
+#cadastro {
     display: none;
 }
-#sistemaBoxOutros{
-    display: none;
-}       
-#back{
+
+#financeiro {
     display: none;
 }
-#backofficeFalha{
+
+#sisComerciante {
     display: none;
 }
-#backofficeCadastro{
+
+#sistemaComercianteCadastro {
     display: none;
 }
-#backofficeConfig{
+
+#comercianteFalha {
     display: none;
 }
-#backofficeOutros{
+
+#googleWorkspace {
+    display: none;
+}
+
+#suporteHardware {
+    display: none;
+}
+
+#suporteSoftware {
+    display: none;
+}
+
+#cloud {
+    display: none;
+}
+
+#proAdmin {
+    display: none;
+}
+
+#sistemaBox {
+    display: none;
+}
+
+#sistemaBoxFalha {
+    display: none;
+}
+
+#sistemaBoxOutros {
+    display: none;
+}
+
+#back {
+    display: none;
+}
+
+#backofficeFalha {
+    display: none;
+}
+
+#backofficeCadastro {
+    display: none;
+}
+
+#backofficeConfig {
+    display: none;
+}
+
+#backofficeOutros {
     display: none;
 
 }
-#suporteInfra{
+
+#suporteInfra {
     display: none;
 }
 
@@ -403,97 +420,118 @@ img {
     border: none;
     background-color: var(--primary-yelllow);
     font-size: 1.2rem;
-  }
-  .content-main{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-      height: 90vh;
-  }
-  .container-form {
-      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25), 1px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.container-form {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25), 1px -4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 2rem;
     justify-content: center;
-  
+
     align-items: center;
-  }
-  .input-box {
-      width: 100%;
+}
+
+.input-box {
+    width: 100%;
     display: flex;
     gap: 1rem;
     flex-direction: column;
-  }
-  .title-text-form{
-      width: 100%;
-      font-weight: normal;
-      font-size: 1.5rem;
-      text-align: start;
-  }
-  
-  .input-box textarea{
-      width: 100% !important;
-      height: 150px !important;
-      padding: 20px 12px;
-      outline: none;
-  }
-  
-  
-  .dropzone{
-      flex-wrap: wrap;
-      width: 100%;
-  
-      max-width: 100%;
-      border: 0.3px dashed #000000;
-      background:url(../Telas/img\ src/Group\ 5.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 3em;
-     font-size: 1rem;
-  }
-  .dropzone .fallback{
-      width: 100%;
-  }
-  
-  .header-link{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      color: var(--neutral-40);
-      padding: 10px;
-      font-size: 1rem;
-  
-  }
-  
-  .header-form{
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: space-between;
-  }
-  .container-route{
-      display: flex;
-      width:min(500px,100%);
-      justify-content: flex-end;
-      padding: 8px;    
-  }
-  .link-route{
-      text-decoration: none;
-      padding: 4px 24px 0px 24px;
-      color: var(--neutral-40);
-      font-size: 1.1rem;
-  }
-  .link-route{
-      border-right: 2px solid rgba(0, 0, 0, 0.61);;
-      text-decoration: none;
-      color: var(--neutral-40);
-  }
-  .link-route:last-child{
-      border:none;
-      text-decoration: none;
-      color: var(--neutral-40);
-  } 
+}
+
+.title-text-form {
+    width: 100%;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.input-box textarea {
+    width: 100% !important;
+    height: 150px !important;
+    padding: 20px 12px;
+    outline: none;
+}
+
+
+.dropzone {
+    flex-wrap: wrap;
+    width: 100%;
+
+    max-width: 100%;
+    border: 0.3px dashed #000000;
+    background: url(../Telas/img\ src/Group\ 5.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3em;
+    font-size: 1rem;
+}
+
+.dropzone .fallback {
+    width: 100%;
+}
+
+.header-link {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--neutral-40);
+    padding: 10px;
+    font-size: 1rem;
+
+}
+
+.header-form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-route {
+    align-items: center;
+    display: flex;
+    width: min(500px, 100%);
+    justify-content: flex-end;
+    padding: 8px;
+}
+
+.link-route {
+    text-decoration: none;
+    padding: 4px 24px 0px 24px;
+    color: var(--neutral-40);
+    font-size: 1.1rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.61);
+}
+
+.link-route:last-child {
+    border: none;
+    text-decoration: none;
+    color: var(--neutral-40);
+}
+
+.footer-main {
+    position: relative;
+    background-color: var(--neutral-99);
+    padding: 1rem;
+    margin: 1rem auto 0 auto;
+    width: min(800px, 100vw);
+    min-height: 10vh;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(164, 155, 155, 0.25);
+    border-radius: 10px;
+}
+
+.footer-main a {
+    padding: 15px;
+}
