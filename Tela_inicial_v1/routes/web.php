@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/formulario', function () {
     return view('form');
 });
+
+Route::get('/formularioSis', function () {
+    return view('pg');
+});

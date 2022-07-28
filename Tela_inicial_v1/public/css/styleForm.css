@@ -13,7 +13,7 @@ body {
 
 .wrapper {
     width: min(1350px, 90vw);
-    min-height: 120vh;
+    min-height: 130vh;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -32,9 +32,9 @@ body {
 
 img {
     position: absolute;
-    left: 24%;
+    left: 26.5%;
     right: 73.77%;
-    top: 13.43%;
+    top: 15.43%;
     bottom: 87.4%;
 }
 
@@ -42,8 +42,8 @@ h3 {
     position: absolute;
     width: 56px;
     height: 24px;
-    left: 486px;
-    top: 100px;
+    left: 488px;
+    top: 105px;
 
     font-family: 'roboto';
     font-style: normal;
@@ -52,8 +52,17 @@ h3 {
     line-height: 24px;
     display: flex;
     align-items: center;
+    transition: 500ms;
+    cursor: pointer;
 
-    color: #000000;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+h3:hover {
+
+color: black;
+
+
 }
 
 .one {

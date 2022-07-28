@@ -455,7 +455,7 @@
     <!-- INICIO -- Processos Administrativos -->
     <div id="proAdmin" class="wrapper">
         <div class="container_adm">
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
                 <h3 class="title-card">Colaborador / Admissão</h3>
             </div>

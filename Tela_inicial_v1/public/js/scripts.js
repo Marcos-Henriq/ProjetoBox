@@ -3,6 +3,8 @@ function troca(id, aparecer) {
     if (aparecer == 'fim') {
         window.location = 'formulario'
 
+    } else if (aparecer == 'pg') {
+        window.location = 'formularioSis'
     }
 
     document.getElementById(id).style.display = "none"
