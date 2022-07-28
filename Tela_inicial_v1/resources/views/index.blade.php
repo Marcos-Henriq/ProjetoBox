@@ -181,7 +181,7 @@
         <div class="container_comerciante">
 
             <div onclick="troca('sisComerciante', 'comercianteFalha')" class="card">
-                <div class="card_yellow"><img src="/img/ComercianteInicio/erro.svg"></div>
+                <div class="card_yellow"><img src="https://media.istockphoto.com/photos/exclamation-point-icon-picture-id184952098?s=2048x2048"></div>
                 <h3 class="title-card">Falha</h3>
             </div>
 
