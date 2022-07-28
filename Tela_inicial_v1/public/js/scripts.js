@@ -5,7 +5,6 @@ function troca(id, aparecer) {
 
     }
 
-
     document.getElementById(id).style.display = "none"
     document.getElementById(aparecer).style.display = "flex"
 
