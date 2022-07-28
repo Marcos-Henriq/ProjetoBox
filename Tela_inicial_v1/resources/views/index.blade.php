@@ -395,44 +395,44 @@
                 <h3 class="title-card">TV</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/applewatch.svg"></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/applewatch.svg"></div>
                 <h3 class="title-card"> Chromecast</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/Computer, Laptop.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Computer, Laptop.svg" alt=""></div>
                 <h3 class="title-card">Case Notebook </h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/mac-pro.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/mac-pro.svg" alt=""></div>
                 <h3 class="title-card">Suporte Notebook</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/cable-charging.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-charging.svg" alt=""></div>
                 <h3 class="title-card">Filtro de Linha</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/Group.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Group.svg" alt=""></div>
                 <h3 class="title-card">Extensão Elétrica</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/usb-cable-1.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/usb-cable-1.svg" alt=""></div>
                 <h3 class="title-card">Cabo HDMI</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/cable-usb.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-usb.svg" alt=""></div>
                 <h3 class="title-card">Cabo VGA</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/Group.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Group.svg" alt=""></div>
                 <h3 class="title-card">Adaptador <br>
                     “HDMI x VGA”</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/image 1.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/image 1.svg" alt=""></div>
                 <h3 class="title-card">Mouse Pad</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="img/SuporteHardwareInicio/cable-charging-1.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-charging-1.svg" alt=""></div>
                 <h3 class="title-card">Cabo de Energia Desktop</h3>
             </div>
         </div>
