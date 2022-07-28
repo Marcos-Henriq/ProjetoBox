@@ -436,7 +436,8 @@
                 <h3 class="title-card">Cabo de Energia Desktop</h3>
             </div>
         </div>
-    </div>
+    </div> 
+    
     <!-- FINAL -- Infra --> 
     
 
