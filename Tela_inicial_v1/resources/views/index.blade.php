@@ -327,6 +327,7 @@
                 <h3 class="title-card">Tablet</h3>
             </div>
         </div>
+        
     </div>
 
     <!-- FINAL -- Hardware -->
