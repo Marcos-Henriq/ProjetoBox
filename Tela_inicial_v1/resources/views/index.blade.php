@@ -327,7 +327,7 @@
                 <h3 class="title-card">Tablet</h3>
             </div>
         </div>
-        
+
     </div>
 
     <!-- FINAL -- Hardware -->
@@ -336,32 +336,32 @@
     <div id="suporteSoftware" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/arcticons_clock.svg" alt=""></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/Settings.svg"></div>
                 <h3 class="title-card">Configurações diversas</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/Download, Save, Upload.svg" alt=""></div>
                 <h3 class="title-card">Instalação software </h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/printer.svg" alt=""></div>
                 <h3 class="title-card">Instalação de
                     impressoras</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/mobile-checkmark.svg" alt=""></div>
                 <h3 class="title-card">Celular - Software</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/ipad.svg" alt=""></div>
                 <h3 class="title-card">Tablet - Software</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/menu-dots.svg" alt=""></div>
                 <h3 class="title-card">Outros - Software</h3>
             </div>
         </div>
@@ -371,14 +371,14 @@
 
     <!-- INICIO -- Acesso cloud -->
 
-    <div id="cloud" class="wrapper">
+    <div id="cloud" class="wrapper"> 
         <div class="container_hardware">
             <div class="card" onclick="troca('cloud', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/AcessoCloudInicio/Folder, Edit, Rename.svg" alt=""></div>
                 <h3 class="title-card">Liberação a acesso a pastas compartilhadas</h3>
             </div>
             <div class="card" onclick="troca('cloud', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="/img/AcessoCloudInicio/folder-lock.svg"></div>
                 <h3 class="title-card">Bloqueio ao acesso a pastas compartilhadas</h3>
             </div>
         </div>
