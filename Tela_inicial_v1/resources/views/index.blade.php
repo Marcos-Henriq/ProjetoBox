@@ -23,7 +23,7 @@
 
 
     <!-- INICIO -- Tela Inicial -->
-    
+
 
     <div id="inicial" class="wrapper">
         <div class="container">
@@ -272,7 +272,7 @@
         <div class="container_Workspace">
             <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="/img/GoogleWorkspaceInicio/user-profile-add-circle.svg" alt=""></div>
-                <h3 class="title-card">Criação de usuário google</h3> 
+                <h3 class="title-card">Criação de usuário google</h3>
             </div>
             <div class="card" onclick="troca('googleWorkspace', 'fim')">
                 <div class="card_yellow"><img src="/img/GoogleWorkspaceInicio/single-user-minus-delete-remove.svg"></div>
@@ -294,7 +294,7 @@
     </div>
     <!-- FINAL -- Workspace -->
 
-    <!-- INICIO -- Suporte Hardware --> 
+    <!-- INICIO -- Suporte Hardware -->
     <div id="suporteHardware" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('suporteHardware', 'fim')">
@@ -327,7 +327,7 @@
                 <h3 class="title-card">Tablet</h3>
             </div>
         </div>
-        
+
     </div>
 
     <!-- FINAL -- Hardware -->
@@ -336,32 +336,32 @@
     <div id="suporteSoftware" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/arcticons_clock.svg" alt=""></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/Settings.svg"></div>
                 <h3 class="title-card">Configurações diversas</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/Download, Save, Upload.svg" alt=""></div>
                 <h3 class="title-card">Instalação software </h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/printer.svg" alt=""></div>
                 <h3 class="title-card">Instalação de
                     impressoras</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/mobile-checkmark.svg" alt=""></div>
                 <h3 class="title-card">Celular - Software</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/ipad.svg" alt=""></div>
                 <h3 class="title-card">Tablet - Software</h3>
             </div>
             <div class="card" onclick="troca('suporteSoftware', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/menu-dots.svg" alt=""></div>
                 <h3 class="title-card">Outros - Software</h3>
             </div>
         </div>
@@ -374,11 +374,11 @@
     <div id="cloud" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('cloud', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="/img/AcessoCloudInicio/Folder, Edit, Rename.svg" alt=""></div>
                 <h3 class="title-card">Liberação a acesso a pastas compartilhadas</h3>
             </div>
             <div class="card" onclick="troca('cloud', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="/img/AcessoCloudInicio/folder-lock.svg"></div>
                 <h3 class="title-card">Bloqueio ao acesso a pastas compartilhadas</h3>
             </div>
         </div>
@@ -391,122 +391,101 @@
     <div id="suporteInfra" class="wrapper">
         <div class="container_infra">
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteHardwareInicio/monitor.svg" alt=""></div>
                 <h3 class="title-card">TV</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/applewatch.svg"></div>
                 <h3 class="title-card"> Chromecast</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Computer, Laptop.svg" alt=""></div>
                 <h3 class="title-card">Case Notebook </h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/mac-pro.svg" alt=""></div>
                 <h3 class="title-card">Suporte Notebook</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-charging.svg" alt=""></div>
                 <h3 class="title-card">Filtro de Linha</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Group.svg" alt=""></div>
                 <h3 class="title-card">Extensão Elétrica</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/usb-cable-1.svg" alt=""></div>
                 <h3 class="title-card">Cabo HDMI</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-usb.svg" alt=""></div>
                 <h3 class="title-card">Cabo VGA</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/Group.svg" alt=""></div>
                 <h3 class="title-card">Adaptador <br>
                     “HDMI x VGA”</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/image 1.svg" alt=""></div>
                 <h3 class="title-card">Mouse Pad</h3>
             </div>
             <div class="card" onclick="troca('suporteInfra', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SuporteInfraInicio/cable-charging-1.svg" alt=""></div>
                 <h3 class="title-card">Cabo de Energia Desktop</h3>
             </div>
         </div>
     </div>
-    <!-- FINAL -- Infra -->
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- FINAL -- Infra --> 
+    
 
     <!-- INICIO -- Processos Administrativos -->
     <div id="proAdmin" class="wrapper">
         <div class="container_adm">
+<<<<<<< HEAD
             <div onclick="troca('proAdmin', 'pg')" class="card">
                 <div class="card_yellow"><img src="" alt=""></div>
+=======
+            <div class="card">
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/User,Profile.svg" alt=""></div>
+>>>>>>> c6b841b657b32a3e2c2b948e7e4a01960458c178
                 <h3 class="title-card">Colaborador / Admissão</h3>
             </div>
             <div class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/User,Profile-1.svg"></div>
                 <h3 class="title-card">Colaborador / Desligamento</h3>
             </div>
             <div class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Single, User, Enter.svg" alt=""></div>
                 <h3 class="title-card">Colaborador / Movimentação </h3>
             </div>
             <div class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Messages, Chat.svg" alt=""></div>
                 <h3 class="title-card">Solicitações </h3>
             </div>
             <div class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Messages, Chat-1.svg" alt=""></div>
                 <h3 class="title-card">Devoluções</h3>
             </div>
             <div class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Arrows.svg" alt=""></div>
                 <h3 class="title-card">Movimentação</h3>
             </div>
         </div>
     </div>
     <!-- FINAL -- ADM -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- INICIO -- Sistema box -->
 
     <div id="sistemaBox" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('sistemaBox', 'sistemaBoxFalha')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SistemaBoxInicio/fluent_error-circle-20-regular.svg" alt=""></div>
                 <h3 class="title-card">Falha</h3>
             </div>
             <div class="card" onclick="troca('sistemaBox', 'sistemaBoxOutros')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/SistemaBoxInicio/menu-dots.svg"></div>
                 <h3 class="title-card">Outros</h3>
             </div>
         </div>
@@ -514,64 +493,37 @@
 
     <!-- FALHA -- Sistema box -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div id="sistemaBoxFalha" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('sistemaBoxFalha', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/Browser, Internet, Web, Network, Window, Warning.svg" alt=""></div>
                 <h3 class="title-card">Sistema não funciona</h3>
             </div>
             <div class="card" onclick="troca('sistemaBoxFalha', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/SistemaBoxFalha/arcticons_clock.svg"></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- OUTROS -- Sistema box -->
 
     <div id="sistemaBoxOutros" class="wrapper">
         <div class="container_hardware">
             <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SItemaBoxOutros/checklist-pen-checkmark.svg" alt=""></div>
                 <h3 class="title-card">Apoio técnico em negociação comercial</h3>
             </div>
             <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SItemaBoxOutros/sticker-add-plus.svg" alt=""></div>
                 <h3 class="title-card">Nova funcionalidade do sistema</h3>
             </div>
             <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SItemaBoxOutros/user-profile-add-circle.svg" alt=""></div>
                 <h3 class="title-card">Novo parceiro para integração</h3>
             </div>
             <div class="card" onclick="troca('sistemaBoxOutros', 'fim')">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/SItemaBoxOutros/Messages, Chat, Question.svg"></div>
                 <h3 class="title-card">Dúvidas sobre o funcionamento do sistema</h3>
             </div>
         </div>
@@ -579,235 +531,155 @@
 
     <!-- FINAL -- Sistema box -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--INICIO --   office -->
 
     <div id="back" class="wrapper">
         <div class="container_hardware">
 
             <div onclick="troca('back', 'backofficeFalha')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeInicio/fluent_error-circle-20-regular.svg" alt=""></div>
                 <h3 class="title-card">Falha</h3>
             </div>
 
             <div onclick="troca('back', 'backofficeCadastro')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeInicio/Group.svg" alt=""></div>
                 <h3 class="title-card">Cadastro</h3>
             </div>
 
             <div onclick="troca('back', 'backofficeConfig')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeInicio/Setting, Edit, Filter, Gear.svg" alt=""></div>
                 <h3 class="title-card">Configuração</h3>
             </div>
 
             <div onclick="troca('back', 'backofficeOutros')" class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeInicio/menu-dots.svg"></div>
                 <h3 class="title-card">Outros</h3>
             </div>
 
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Backoffice - Falha -->
 
     <div id="backofficeFalha" class="wrapper">
         <div class="container_back_falha">
             <div onclick="troca('backofficeFalha', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/Browser, Internet, Web, Network, Window, Warning.svg" alt=""></div>
                 <h3 class="title-card">Backoffice não funciona</h3>
             </div>
 
             <div onclick="troca('backofficeFalha', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/arcticons_clock.svg" alt=""></div>
                 <h3 class="title-card">Lentidão no Backoffice</h3>
             </div>
             <div onclick="troca('backofficeFalha', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/users-profile-group-delete.svg" alt=""></div>
                 <h3 class="title-card">Pedido não encontrado</h3>
             </div>
             <div onclick="troca('backofficeFalha', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/basket-delete-cross.svg" alt=""></div>
                 <h3 class="title-card">Comércio não encontrado</h3>
             </div>
             <div onclick="troca('backofficeFalha', 'fim')" class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeFalha/money-banknote-arrow.svg"></div>
                 <h3 class="title-card">Falha na utilização do Backoffice</h3>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
+    
     <!-- Backoffice - Cadastro -->
 
 
     <div id="backofficeCadastro" class="wrapper">
         <div class="container_hardware">
             <div onclick="troca('backofficeCadastro', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeCadastro/users-profile-group.svg" alt=""></div>
                 <h3 class="title-card">Criação de usuário</h3>
             </div>
             <div onclick="troca('backofficeCadastro', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeCadastro/User, Profile.svg" alt=""></div>
                 <h3 class="title-card">Alteração de acessos</h3>
             </div>
             <div onclick="troca('backofficeCadastro', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeCadastro/single-user-minus-delete-remove.svg" alt=""></div>
                 <h3 class="title-card">Exclusão de usuários</h3>
             </div>
             <div onclick="troca('backofficeCadastro', 'fim')" class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeCadastro/Key.svg"></div>
                 <h3 class="title-card">Redefinição de senha</h3>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Backoffice - Configurações -->
 
     <div id="backofficeConfig" class="wrapper">
         <div class="container_hardware">
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Grid, Layout.svg" alt=""></div>
                 <h3 class="title-card">Configurações da tabela de destino</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Grid, Layout-1.svg" alt=""></div>
                 <h3 class="title-card">Configurações da tabela de taxas</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Flag.svg" alt=""></div>
                 <h3 class="title-card">Configuração de Flags de acessos</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/List, Numbers.svg" alt=""></div>
                 <h3 class="title-card">Configuração de Blacklist</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/List, Do list, Checkmark.svg" alt=""></div>
                 <h3 class="title-card">Configuração de Whitelist</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Сup.svg" alt=""></div>
                 <h3 class="title-card">Configuração de Ranking</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Medal, Prize, Reward.svg" alt=""></div>
                 <h3 class="title-card">Configuração de Roleta Premiada</h3>
             </div>
             <div onclick="troca('backofficeConfig', 'fim')" class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeConfigurações/Medal, Prize, Reward-1.svg"></div>
                 <h3 class="title-card">Configuração de Pontos</h3>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Backoffice - Outros -->
+
     <div id="backofficeOutros" class="wrapper">
         <div class="container_hardware">
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Coins.svg" alt=""></div>
                 <h3 class="title-card">Financeiro entregador</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Сup.svg" alt=""></div>
                 <h3 class="title-card">Operador logístico/Clã</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Chat, Messages.svg" alt=""></div>
                 <h3 class="title-card">Disparo de SMS</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Chat, Messages, Add.svg" alt=""></div>
                 <h3 class="title-card">Disparo de Pushs no App</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Calendar, Schedule.svg" alt=""></div>
                 <h3 class="title-card">Solicitação de relatórios</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/money-banknote-bank.svg" alt=""></div>
                 <h3 class="title-card">Financeiro loja</h3>
             </div>
             <div onclick="troca('backofficeOutros', 'fim')" class="card">
-                <div class="card_yellow"><img src=""></div>
+                <div class="card_yellow"><img src="img/BackOfficeOutros/Chat, Messages, Bubble, Circle.svg"></div>
                 <h3 class="title-card">Registro de ocorrências</h3>
             </div>
         </div>
@@ -815,15 +687,14 @@
 
     <!-- FINAL -- BackOffice -->
 
-<!-- 
-    <footer class="footer-main" id="footer" >
-        <p>O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
-            exemplo@boxdelivery.com <a href="">Alterar Conta</a>
-        </p>
-        </footer> -->
-
-
-
+    <footer class="footer-main">
+        <div class="div-footer">
+            <p>
+                O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
+                exemplo@boxdelivery.com <a href="">Alterar Conta</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 
