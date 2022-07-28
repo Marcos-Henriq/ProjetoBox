@@ -819,7 +819,8 @@
     <footer class="footer-main" id="footer" >
         <p>O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
             exemplo@boxdelivery.com <a href="">Alterar Conta</a>
-        </p>
+        </p>   
+        
         </footer> -->
 
 
