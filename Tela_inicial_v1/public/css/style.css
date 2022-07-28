@@ -7,7 +7,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-
 :root {
     /* Color Guidance */
 
@@ -93,7 +92,7 @@ body {
 
 .wrapper {
     width: min(1300px, 90vw);
-    min-height: 100vh;
+    min-height: 80vh;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -126,7 +125,6 @@ body {
         0px 1px 3px 1px rgba(0, 0, 0, 0.15);
 }
 
-
 .card {
     width: min(230px, 90vw);
     height: 210px;
@@ -156,7 +154,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 2rem;
-
 }
 
 .card_yellow {
@@ -180,9 +177,6 @@ body {
     width: 40px;
     height: 40px;
 }
-
-
-
 
 .APP_Entregador {
     width: 100%;
@@ -274,8 +268,6 @@ body {
     gap: 2rem;
 }
 
-
-
 .container_infra {
     width: 80%;
     height: 50%;
@@ -316,7 +308,6 @@ body {
     gap: 2rem;
 }
 
-
 .container_back_falha {
     width: 100%;
     height: 50%;
@@ -326,7 +317,6 @@ body {
     justify-content: center;
     gap: 2rem;
 }
-
 
 #appEntregador {
     display: none;
@@ -406,13 +396,11 @@ body {
 
 #backofficeOutros {
     display: none;
-
 }
 
 #suporteInfra {
     display: none;
 }
-
 
 /* FORMULARIO */
 
@@ -431,7 +419,8 @@ body {
 }
 
 .container-form {
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25), 1px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25),
+        1px -4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -462,7 +451,6 @@ body {
     outline: none;
 }
 
-
 .dropzone {
     flex-wrap: wrap;
     width: 100%;
@@ -481,7 +469,6 @@ body {
 }
 
 .header-link {
-
     display: none;
     align-items: center;
     justify-content: center;
@@ -489,7 +476,6 @@ body {
     color: var(--neutral-40);
     padding: 10px;
     font-size: 1rem;
-
 }
 
 .header-form {
@@ -522,17 +508,23 @@ body {
 }
 
 .footer-main {
-    position: relative;
-    background-color: var(--neutral-99);
-    padding: 1rem;
-    margin: 1rem auto 0 auto;
-    width: min(800px, 100vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 10vh;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(164, 155, 155, 0.25);
-    border-radius: 10px;
-
+    width: 100%;
 }
 
 .footer-main a {
     padding: 15px;
 }
+
+.div-footer {
+    background-color: var(--neutral-99);
+    padding: 1rem;
+    width: 40%;
+    height: 90%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+        -4px 4px 4px rgba(164, 155, 155, 0.25);
+    border-radius: 10px;
+}    
