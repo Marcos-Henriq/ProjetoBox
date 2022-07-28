@@ -23,7 +23,7 @@
 
 
     <!-- INICIO -- Tela Inicial -->
-
+    
 
     <div id="inicial" class="wrapper">
         <div class="container">
@@ -70,6 +70,7 @@
                 <h3 class="title-card">Processos Administrativos</h3>
             </div>
         </div>
+
     </div>
 
     <!-- FINAL -- Tela Inicial -->
@@ -813,13 +814,16 @@
 
     <!-- FINAL -- BackOffice -->
 
-
-
-    <footer class="footer-main">
+<!-- 
+    <footer class="footer-main" id="footer" >
         <p>O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
             exemplo@boxdelivery.com <a href="">Alterar Conta</a>
         </p>
-    </footer>
+        </footer> -->
+
+
+
+
 </body>
 
 </html>
