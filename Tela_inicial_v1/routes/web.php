@@ -21,3 +21,12 @@ Route::get('/', function () {
 Route::get('/formulario', function () {
     return view('form');
 });
+
+
+//  Rota para a Div (Processo Administrativos/ Div filhos) - inicio
+
+Route::get('/processosAdm', function () {
+    return view('pg');
+});
+
+//  Rota para a Div (Processo Administrativos/ Div filhos) roteirizar no javascripts - fim
