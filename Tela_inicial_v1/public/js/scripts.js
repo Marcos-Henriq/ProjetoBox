@@ -5,8 +5,14 @@
 function troca(id, aparecer) {
     anterior='inicial'
     atual=aparecer
-    if (aparecer == 'fim') {
-        window.location = 'formulario'
+    if (aparecer == 'fim') {   
+        document.getElementById("but").style.background="#ffb800" 
+        document.getElementById("but").style.color="black" 
+        document.getElementById("but").style.pointerEvents="all" 
+        document.getElementById("teste").value=caminho
+        console.log(document.getElementById("teste").value)
+        // window.location = 'form'
+        return  
     }
 
     document.getElementById(id).style.display = "none"
@@ -15,8 +21,13 @@ function troca(id, aparecer) {
     if (caminho.length > 0) {   
         document.getElementById('linkHome').style.display = 'flex'
     }
-    
+    document.getElementById('gambiarra').innerHTML=caminho
 
+ document.getElementById('containerRoute').innerHTML = ``
+for (let i =0; i<caminho.length;i++){
+ document.getElementById('containerRoute').innerHTML += `${caminho[i]} | `
+    
+}
 
 
     // Implementação futura da volta com caminho de pão
@@ -39,7 +50,7 @@ function troca(id, aparecer) {
     //        */  
 
     // }
-}   
+}  
 
 function voltar(){
     caminho=[]
@@ -49,5 +60,11 @@ function voltar(){
         document.getElementById('linkHome').style.display = 'none'
     }
 }
+
+
+function testar(){
+    document.getElementById('teste').value=7878
+}
+
 
 

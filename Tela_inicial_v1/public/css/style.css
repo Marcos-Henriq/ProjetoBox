@@ -491,6 +491,9 @@ body {
     width: min(500px, 100%);
     justify-content: flex-end;
     padding: 8px;
+    font-size: 2vh;
+    font-weight: 300;
+    color: #959088;
 }
 
 .link-route {
@@ -528,3 +531,32 @@ body {
         -4px 4px 4px rgba(164, 155, 155, 0.25);
     border-radius: 10px;
 }    
+
+
+
+.segredo{
+    display: flex;
+    height: min(100px,6vh);
+    width: min(200px,15vh);
+    background-color: #9d9d9d43;
+    font-size: 2vh;
+    font-family: 'Roboto';
+    border: 0;
+    justify-content: center;
+    border-radius: 50px;
+    transition: .4s;
+    position: absolute;
+    right:10%;
+    pointer-events: none;
+    color: #3535352d;
+}
+
+    
+
+
+.segredo:hover{
+    background-color: #ffe089;
+    cursor: pointer;
+}
+
+    

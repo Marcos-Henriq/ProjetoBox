@@ -10,11 +10,11 @@
     <title>Suporte | BoxDelivery</title>
 </head>
 <script src="/js/scripts.js">
-
 </script>
 
 <body>
     <div class="header-form">
+        
         <a href="/" id="linkHome" class="header-link"><img width="25px" src="/img/bi_arrow-left-short.svg" alt=""><span>Inicio</span></a>
         <div class="container-route" id="containerRoute">
         </div>
@@ -680,7 +680,10 @@
             </div>
         </div>
     </div>
-
+        <form  onsubmit="trocar()" method="GET"  action="form">
+        <input id="teste" value="111" name="inp"  type="hidden">
+        <input  id="but" class="segredo" value="Proximo" type="submit">
+        </form>
     <!-- FINAL -- BackOffice -->
 
     <footer class="footer-main">

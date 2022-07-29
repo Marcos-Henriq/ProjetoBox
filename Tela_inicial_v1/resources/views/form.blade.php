@@ -9,29 +9,34 @@
   <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
   <script src="/js/scripts.js"></script>
   <link rel="stylesheet" href="/css/style.css" />
+
 </head>
 
 <body>
+  <?php
+  $recebendo=explode(",",$recebendo);
+  echo $recebendo[0];?><br>
+  <?php
+  echo $recebendo[1];
+  ?>
+
   <!--Header-->
   <div class="header"></div>
   <!--Banner-->
-
+<div id="caminho" ></div>
   <div class="wrapper">
 
     <main class="content-main">
       <div class="header-form">
         <a href="" class="header-link"><img width="25px" src="../Telas/img src/bi_arrow-left-short.svg" alt=""><span> Voltar</span></a>
         <div class="container-route">
-          <a href="" class="link-route">App do Entregador</a>
-          <a href="" class="link-route">Exemplo</a>
-          <a href="" class="link-route">Exemplo02</a>
-
+  
         </div>
       </div>
       <div class="container-form">
         <div class="input-box">
           <label for="idDesc" class="title-text-form">Adicionar observação :</label>
-          <textarea class="textarea" name="" id="idDesc" cols="30" rows="10" placeholder="Escreva aqui..."></textarea>
+          <textarea class="textarea" name="" id="idDesc" cols="30" rows="10"   placeholder="Escreva aqui..."></textarea>
         </div>
 
         <p class="title-text-form">Arquivos (opcional)</p>
@@ -45,7 +50,19 @@
     </main>
   </div>
 
+
+
 </body>
 <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 
 </html>
+<script>
+  var caminho= sessionStorage.getItem('caminho')
+  caminho=JSON.parse(caminho)
+  var item_um=sessionStorage.caminho 
+  caminho.  innerHTML=caminho[0]  
+  caminho.innerHTML=caminho[0]
+</script>
+
+
+  
