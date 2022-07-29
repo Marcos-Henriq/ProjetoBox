@@ -23,7 +23,7 @@
     $dois=$recebendo[1];
     $tres=$recebendo[count($recebendo)-1];
     $type2=true;
-  }else if(count($recebendo)> 3){
+  }else if(count($recebendo)>= 3){
     $um=$recebendo[0];
     $dois=$recebendo[1];
     $tres=$recebendo[count($recebendo)-1];
@@ -98,7 +98,7 @@
             <input name="fileToUpload"   type="file" multiple />
           </div>
         </form>
-        <button class="btn btn-primary-80">Finalizar</button>
+        <button class="btn_finalizar">Finalizar</button>
       </div>
     </main>
   </div>

@@ -532,21 +532,22 @@ body {
 }
 
 .div-footer {
+    flex-wrap: wrap;
     background-color: var(--neutral-99);
     padding: 1rem;
-    width: 40%;
-    height: 90%;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
-        -4px 4px 4px rgba(164, 155, 155, 0.25);
+    width: min(700px,80%);
+    height: min(70px,9vh);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),-4px 4px 4px rgba(164, 155, 155, 0.25);
     border-radius: 10px;
+    font-size: min(12pt,2vh);
 }    
 
 
 
 .segredo{
     display: flex;
-    height: min(100px,6vh),;
-    width: min(200px,15vh);
+    height: 5vh;
+    width: 10vw;
     background-color: #9d9d9d43;
     font-size: 2vh;
     font-family: 'Roboto';
@@ -573,4 +574,18 @@ body {
     font-size: clamp(.3vh,14pt,2vh);
     margin: 0%;
 }
-    
+    .btn_finalizar{
+        border: none;
+        background-color: var(--primary-yelllow);
+        font-size: 1.2rem;
+        border-radius: 40px;
+        height: min(60px,10vh);
+        width: min(150px,20vh);
+        font-size: min(12pt,2vh);
+        transition: .3s;
+    }
+
+    .btn_finalizar:hover{
+        transform:scale(1.1,1.1);
+        cursor: pointer;
+    }
