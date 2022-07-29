@@ -335,7 +335,7 @@
     <!-- INICIO -- Suporte Software -->
     <div id="suporteSoftware" class="wrapper">
         <div class="container_hardware">
-            <div class="card" onclick="troca('suporteSoftware', 'fim'),'Lentidão no sistema'">
+            <div class="card" onclick="troca('suporteSoftware', 'fim','Lentidão no sistema')">
                 <div class="card_yellow"><img src="/img/SuporteSoftwareInicio/arcticons_clock.svg" alt=""></div>
                 <h3 class="title-card">Lentidão no sistema</h3>
             </div>

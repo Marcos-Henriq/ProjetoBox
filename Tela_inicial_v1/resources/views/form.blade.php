@@ -14,10 +14,21 @@
 
 <body>
   <?php
-  $recebendo=explode(",",$recebendo);  
-  $um=$recebendo[0];
-  $dois=$recebendo[1];
-  $tres=$recebendo[count($recebendo)-1];
+
+  $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra',];
+  $type2=false;
+    $recebendo=explode(",",$recebendo);     
+  if(in_array($recebendo[0],$casos)){
+    $um=$recebendo[0];
+    $dois=$recebendo[1];
+    $tres=$recebendo[count($recebendo)-1];
+    $type2=true;
+  }else if(count($recebendo)> 3){
+    $um=$recebendo[0];
+    $dois=$recebendo[1];
+    $tres=$recebendo[count($recebendo)-1];
+
+  };
   
   ?><br>
 
@@ -32,6 +43,13 @@
       $this->parteDois = $parteDois;
       $this->parteTres = $parteTres;
     }
+    public function mostrarDados(){
+      return $this->parteUm.$this->parteDois.$this->parteTres;
+    }
+
+    /* 'parte_um' => $recebendo[0],
+    'parte_dois' => $recebendo[1],
+    'parte_tres' => $recebendo[count($recebendo)-1] */
   };
 
   $caminho = new Caminho(
@@ -49,6 +67,7 @@
   <div class="wrapper">
 
     <main class="content-main">
+      
       <div class="header-form">
         <a href="" class="header-link"><img width="25px" src="../Telas/img src/bi_arrow-left-short.svg" alt=""><span> Voltar</span></a>
         <div class="container-route">
@@ -56,6 +75,18 @@
         </div>
       </div>
       <div class="container-form">
+      <span class="text-path">
+
+      @if($type2)
+      {{$caminho->parteUm}} >
+      {{$caminho->parteTres}} 
+      @else
+      {{$caminho->parteUm}} >
+      {{$caminho->parteDois}} >
+      {{$caminho->parteTres}}
+      @endif
+
+    </span>
         <div class="input-box">
           <label for="idDesc" class="title-text-form">Adicionar observação :</label>
           <textarea class="textarea" name="" id="idDesc" cols="30" rows="10"   placeholder="Escreva aqui..."></textarea>
@@ -64,7 +95,7 @@
         <p class="title-text-form">Arquivos (opcional)</p>
         <form action="upload.php" class="dropzone" id="meuPrimeiroDropzone">
           <div class="fallback">
-            <input name="fileToUpload" type="file" multiple />
+            <input name="fileToUpload"   type="file" multiple />
           </div>
         </form>
         <button class="btn btn-primary-80">Finalizar</button>

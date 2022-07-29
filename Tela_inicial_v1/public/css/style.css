@@ -106,14 +106,14 @@ body {
 }
 
 .btn {
-    display: block;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 24px;
+    height: min(50px,10vh);
+    width: min(150px,25vh);
+    margin: 0%;
 
-    gap: 10px;
     border-radius: 40px;
     cursor: pointer;
     transition: 0.7s ease-in-out;
@@ -419,13 +419,15 @@ body {
 }
 
 .container-form {
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25),
-        1px -4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: -3px 3px   1em rgba(0, 0, 0, 0.286);
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding: 3rem 2rem;
     justify-content: center;
+    width: clamp(20vh,900px,100%);
+    height: clamp(80vh,700px,1000vh);
+    align-self: center;
 
     align-items: center;
 }
@@ -440,28 +442,35 @@ body {
 .title-text-form {
     width: 100%;
     font-weight: normal;
-    font-size: 1.5rem;
+    margin: 0%;
+    font-size: min(12pt,2vh);
     text-align: start;
 }
 
 .input-box textarea {
-    width: 100% !important;
-    height: 150px !important;
+    width: min(750px,80vw);
+    height: min(250px,20vh);
     padding: 20px 12px;
     outline: none;
+    border: .1vh solid #aaa;
+    font-size: 2vh;
+    text-indent: 10px;
+    align-self: center;
+    background-color: #aaaaaa1b;
 }
 
 .dropzone {
     flex-wrap: wrap;
-    width: 100%;
-
-    max-width: 100%;
-    border: 0.3px dashed #000000;
+    width: min(750px,80vw);
+    height: min(10px,10vh);
+    border: 0.3px dashed #00000051;
     background: url(../Telas/img\ src/Group\ 5.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 3em;
+    background-color: #aaaaaa1b;
     font-size: 1rem;
+    align-self: center;
 }
 
 .dropzone .fallback {
@@ -536,7 +545,7 @@ body {
 
 .segredo{
     display: flex;
-    height: min(100px,6vh);
+    height: min(100px,6vh),;
     width: min(200px,15vh);
     background-color: #9d9d9d43;
     font-size: 2vh;
@@ -559,4 +568,9 @@ body {
     cursor: pointer;
 }
 
+.text-path{
+    color: #83838391;
+    font-size: clamp(.3vh,14pt,2vh);
+    margin: 0%;
+}
     
