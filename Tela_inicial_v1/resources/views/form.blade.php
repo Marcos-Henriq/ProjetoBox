@@ -14,10 +14,32 @@
 
 <body>
   <?php
-  $recebendo=explode(",",$recebendo);
-  echo $recebendo[0];?><br>
+  $recebendo=explode(",",$recebendo);  
+  $um=$recebendo[0];
+  $dois=$recebendo[1];
+  $tres=$recebendo[count($recebendo)-1];
+  
+  ?><br>
+
   <?php
-  echo $recebendo[1];
+  class Caminho {
+    public $parteUm;
+    public $parteDois;
+    public $parteTres;
+
+    public function __construct($parteUm,$parteDois,$parteTres){
+      $this->parteUm = $parteUm;
+      $this->parteDois = $parteDois;
+      $this->parteTres = $parteTres;
+    }
+  };
+
+  $caminho = new Caminho(
+    $um,
+    $dois,
+    $tres
+  );
+  
   ?>
 
   <!--Header-->
@@ -56,13 +78,3 @@
 <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 
 </html>
-<script>
-  var caminho= sessionStorage.getItem('caminho')
-  caminho=JSON.parse(caminho)
-  var item_um=sessionStorage.caminho 
-  caminho.  innerHTML=caminho[0]  
-  caminho.innerHTML=caminho[0]
-</script>
-
-
-  

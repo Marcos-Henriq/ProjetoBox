@@ -2,16 +2,16 @@
     var anterior=''
     var atual=''
     var caminho=[]
-function troca(id, aparecer) {
+function troca(id, aparecer,desc) {
     anterior='inicial'
     atual=aparecer
     if (aparecer == 'fim') {   
+        caminho.push(desc);
         document.getElementById("but").style.background="#ffb800" 
         document.getElementById("but").style.color="black" 
         document.getElementById("but").style.pointerEvents="all" 
         document.getElementById("teste").value=caminho
         console.log(document.getElementById("teste").value)
-        // window.location = 'form'
         return  
     }
 
@@ -61,10 +61,6 @@ function voltar(){
     }
 }
 
-
-function testar(){
-    document.getElementById('teste').value=7878
-}
 
 
 

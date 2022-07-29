@@ -33,9 +33,7 @@ Route::get('/processosAdm', function () {
 Route::get('/form', function () {
 
     $recebendo= request('inp');
-    $nome="ss";
-    return view('form', ['recebendo' => $recebendo, 
-                              'nome'=> $nome ]);
+    return view('form', ['recebendo' => $recebendo]);
     
 });
 //  Rota para a Div (Processo Administrativos/ Div filhos) roteirizar no javascripts - fim
