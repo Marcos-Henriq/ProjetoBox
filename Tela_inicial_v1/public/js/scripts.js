@@ -13,6 +13,16 @@ function troca(id, aparecer,desc) {
         document.getElementById("teste").value=caminho
         console.log(document.getElementById("teste").value)
         return  
+    }else if(aparecer=='pg'){
+        caminho.push(desc);
+        document.getElementById("but").style.background="#ffb800" 
+        document.getElementById("but").style.color="black" 
+        document.getElementById("but").style.pointerEvents="all" 
+        document.getElementById("teste").value=caminho
+        console.log(document.getElementById("teste").value)
+        return
+        // window.location="processosAdm"
+        
     }
 
     document.getElementById(id).style.display = "none"

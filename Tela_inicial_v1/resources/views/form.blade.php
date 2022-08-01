@@ -15,7 +15,7 @@
 <body >
   <?php
 
-  $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra',];
+  $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra','proAdmin'];
   $type2=false;
     $recebendo=explode(",",$recebendo);     
   if(in_array($recebendo[0],$casos)){

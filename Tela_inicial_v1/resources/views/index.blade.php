@@ -444,27 +444,27 @@
     <!-- INICIO -- Processos Administrativos -->
     <div id="proAdmin" class="wrapper">
         <div class="container_adm">
-            <div class="card">
+            <div  onclick="troca('proAdmin', 'pg','Colaborador Admissão')" class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/User,Profile.svg" alt=""></div>
                 <h3 class="title-card">Colaborador / Admissão</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg','Colaborador desligamento')"  class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/User,Profile-1.svg"></div>
                 <h3 class="title-card">Colaborador / Desligamento</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg','Colaborador Movimentação')" class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Single, User, Enter.svg" alt=""></div>
                 <h3 class="title-card">Colaborador / Movimentação </h3>
             </div>
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg','Solicitações')" class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Messages, Chat.svg" alt=""></div>
                 <h3 class="title-card">Solicitações </h3>
             </div>
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg','Devoluções')" class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Messages, Chat-1.svg" alt=""></div>
                 <h3 class="title-card">Devoluções</h3>
             </div>
-            <div class="card">
+            <div onclick="troca('proAdmin', 'pg','Movimentação')" class="card">
                 <div class="card_yellow"><img src="img/Processos AdministrativosInicio/Arrows.svg" alt=""></div>
                 <h3 class="title-card">Movimentação</h3>
             </div>
@@ -700,7 +700,7 @@
             </div>
             <div onclick="troca('comerciante_outros', 'fim','Opções de confirmação de entrega')" class="card">
                 <div class="card_yellow"><img src="img/SistemaComercianteOutros/Basket , Check mark.svg" alt=""></div>
-                <h3 class="title-card">Opções de confirmação de entrega</h3>
+                    <h3 class="title-card">Opções de confirmação de entrega</h3>
             </div>
         </div>
     </div>
