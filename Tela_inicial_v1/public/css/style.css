@@ -110,8 +110,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: min(50px,10vh);
-    width: min(150px,25vh);
+    height: min(50px, 10vh);
+    width: min(150px, 25vh);
     margin: 0%;
 
     border-radius: 40px;
@@ -318,6 +318,16 @@ body {
     gap: 2rem;
 }
 
+.container_outros {
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 #appEntregador {
     display: none;
 }
@@ -357,9 +367,11 @@ body {
 #suporteSoftware {
     display: none;
 }
+
 #comerciante_outros {
     display: none;
 }
+
 #cloud {
     display: none;
 }
@@ -427,8 +439,8 @@ body {
     gap: 2rem;
     padding: 3rem 2rem;
     justify-content: center;
-    width: clamp(20vh,900px,100%);
-    height: clamp(80vh,700px,1000vh);
+    width: clamp(20vh, 900px, 100%);
+    height: clamp(80vh, 700px, 1000vh);
     align-self: center;
     backdrop-filter: blur(10%);
 
@@ -446,13 +458,13 @@ body {
     width: 100%;
     font-weight: normal;
     margin: 0%;
-    font-size: min(12pt,2vh);
+    font-size: min(12pt, 2vh);
     text-align: start;
 }
 
 .input-box textarea {
-    width: min(750px,80vw);
-    height: min(250px,20vh);
+    width: min(750px, 80vw);
+    height: min(250px, 20vh);
     padding: 20px 12px;
     outline: none;
     border: .1vh solid #aaa;
@@ -464,8 +476,8 @@ body {
 
 .dropzone {
     flex-wrap: wrap;
-    width: min(750px,80vw);
-    height: min(10px,10vh);
+    width: min(750px, 80vw);
+    height: min(10px, 10vh);
     border: 0.3px dashed #00000051;
     background: url(../Telas/img\ src/Group\ 5.svg);
     background-repeat: no-repeat;
@@ -522,16 +534,34 @@ body {
     color: var(--neutral-40);
 }
 
+.wrap-footer {
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+
+}
+.wrap-footer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .footer-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    width: clamp(60%,85%,80%);
+    width: auto;
     margin: 0%;
     position: relative;
     flex-wrap: wrap;
 }
+
 
 .footer-main a {
     padding: 15px;
@@ -541,22 +571,23 @@ body {
     flex-wrap: wrap;
     background-color: var(--neutral-99);
     padding: 1rem;
-    width: min(700px,70%);
-    height: min(70px,9vh);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),-4px 4px 4px rgba(164, 155, 155, 0.25);
+    width: min(700px, 100%);
+    min-height: min(70px, 9vh);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px 4px 4px rgba(164, 155, 155, 0.25);
     border-radius: 10px;
-    font-size: min(12pt,2vh);
+    font-size: min(12pt, 2vh);
     display: flex;
     justify-content: space-around;
-    position: absolute;
-}    
+    /* position: absolute; */
+}
 
 
 
-.segredo{
+.segredo {
     display: flex;
-    height: 5vh;
-    width: 10vw;
+   /*  height: 5vh;
+    width: 10vw; */
+    padding: 15px 20px;
     background-color: #9d9d9d43;
     font-size: 2vh;
     font-family: 'Roboto';
@@ -567,58 +598,46 @@ body {
     /* position: absolute; */
     pointer-events: none;
     color: #3535352d;
-    align-self: flex-start;
-    margin-right: 5vh;
+    align-self: center;
 }
 
-    
 
 
-.segredo:hover{
+
+.segredo:hover {
     background-color: #ffe089;
     cursor: pointer;
 }
 
-.text-path{
+.text-path {
     color: #83838391;
-    font-size: clamp(.3vh,14pt,2vh);
+    font-size: clamp(.3vh, 14pt, 2vh);
     margin: 0%;
 }
-    .btn_finalizar{
-        border: none;
-        background-color: var(--primary-yelllow);
-        font-size: 1.2rem;
-        border-radius: 40px;
-        height: min(50px,10vh);
-        width: min(170px,20vh);
-        font-size: min(12pt,2vh);
-        transition: .3s;
-    }
 
-    .btn_finalizar:hover{
-        cursor: pointer;
-        background-color: #ffe089;
-    }
-
-
-    .wrap-footer{
-        flex-wrap: wrap;
-        width: 100%;
-       justify-content: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        
-    }
-
-.container_outros {
-    width: 100%;
-    height: 50%;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+.btn_finalizar {
+    border: none;
+    background-color: var(--primary-yelllow);
+    font-size: 1.2rem;
+    border-radius: 40px;
+    height: min(50px, 10vh);
+    width: min(170px, 20vh);
+    font-size: min(12pt, 2vh);
+    transition: .3s;
 }
-    
 
+.btn_finalizar:hover {
+    cursor: pointer;
+    background-color: #ffe089;
+}
+
+
+@media(max-width:900px){
+
+ .wrap-footer{
+    padding: .5rem;
+    gap: 2vh;
+    flex-direction:column-reverse;
+    align-items: center;
+ }   
+}
