@@ -190,7 +190,7 @@
                 <h3 class="title-card">Cadastro</h3>
             </div>
 
-            <div class="card">
+            <div onclick="troca('sisComerciante', 'comerciante_outros')"  class="card">
                 <div class="card_yellow"><img src="/img/ComercianteInicio/menu-dots.svg" alt=""></div>
                 <h3 class="title-card">Outros</h3>
             </div>
@@ -680,20 +680,48 @@
             </div>
         </div>
     </div>
-        <form  onsubmit="trocar()" method="GET"  action="form">
-        <input id="teste" value="111" name="inp"  type="hidden">
-        <input  id="but" class="segredo" value="Proximo" type="submit">
-        </form>
+    <div id="comerciante_outros" class="wrapper">
+        <div class="container_outros">
+            <div onclick="troca('comerciante_outros', 'fim','Configuraçao de roterização')" class="card">
+                <div class="card_yellow"><img src="" alt=""></div>
+                <h3 class="title-card">Configuração de roteirização</h3>
+            </div>
+            <div onclick="troca('comerciante_outros', 'fim','Configuração de agrupamento')" class="card">
+                <div class="card_yellow"><img src="img/comerciante_outros/User, Profile.svg" alt=""></div>
+                <h3 class="title-card">Configuração de agrupamento</h3>
+            </div>
+            <div onclick="troca('comerciante_outros', 'fim','Configuração de despacho')" class="card">
+                <div class="card_yellow"><img src="img/comerciante_outros/single-user-minus-delete-remove.svg" alt=""></div>
+                <h3 class="title-card">Configuração de despacho</h3>
+            </div>
+            <div onclick="troca('comerciante_outros', 'fim','Opções de confirmação de retirada')" class="card">
+                <div class="card_yellow"><img src="img/comerciante_outros/Key.svg"></div>
+                <h3 class="title-card">Opções de confirmação de retirada </h3>
+            </div>
+            <div onclick="troca('comerciante_outros', 'fim','Opções de confirmação de entrega')" class="card">
+                <div class="card_yellow"><img src="img/comerciante_outros/users-profile-group.svg" alt=""></div>
+                <h3 class="title-card">Opções de confirmação de entrega</h3>
+            </div>
+        </div>
+    </div>
+     
     <!-- FINAL -- BackOffice -->
-
+<div class="wrap-footer">
+   
+    
     <footer class="footer-main">
         <div class="div-footer">
             <p>
                 O nome, Foto e o E-mail associados à sua Conta serão registrados ao enviar este formulário.
                 exemplo@boxdelivery.com <a href="">Alterar Conta</a>
             </p>
-        </div>
+        </div>  
     </footer>
+    <form  onsubmit="trocar()" method="GET"  action="form">
+    <input id="teste" value="111" name="inp"  type="hidden">
+    <input  id="but" class="segredo" value="Proximo" type="submit">
+    </form>
+</div>
 
 </body>
 

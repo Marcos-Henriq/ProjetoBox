@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body >
   <?php
 
   $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra',];

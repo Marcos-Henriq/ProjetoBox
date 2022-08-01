@@ -128,7 +128,7 @@ body {
 .card {
     width: min(230px, 90vw);
     height: 210px;
-    background: #ffffff;
+    background: #ffffff36;
     box-shadow: -4px 4px 20px rgba(24, 23, 23, 0.25);
     font-weight: 400;
     font-size: 20px;
@@ -357,7 +357,9 @@ body {
 #suporteSoftware {
     display: none;
 }
-
+#comerciante_outros {
+    display: none;
+}
 #cloud {
     display: none;
 }
@@ -419,7 +421,7 @@ body {
 }
 
 .container-form {
-    box-shadow: -3px 3px   1em rgba(0, 0, 0, 0.286);
+    box-shadow: -3px 3px 2em rgba(0, 0, 0, 0.122);
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -428,6 +430,7 @@ body {
     width: clamp(20vh,900px,100%);
     height: clamp(80vh,700px,1000vh);
     align-self: center;
+    backdrop-filter: blur(10%);
 
     align-items: center;
 }
@@ -521,10 +524,13 @@ body {
 
 .footer-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    width: 100%;
+    width: clamp(60%,85%,80%);
+    margin: 0%;
+    position: relative;
+    flex-wrap: wrap;
 }
 
 .footer-main a {
@@ -535,11 +541,14 @@ body {
     flex-wrap: wrap;
     background-color: var(--neutral-99);
     padding: 1rem;
-    width: min(700px,80%);
+    width: min(700px,70%);
     height: min(70px,9vh);
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),-4px 4px 4px rgba(164, 155, 155, 0.25);
     border-radius: 10px;
     font-size: min(12pt,2vh);
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
 }    
 
 
@@ -555,10 +564,11 @@ body {
     justify-content: center;
     border-radius: 50px;
     transition: .4s;
-    position: absolute;
-    right:10%;
+    /* position: absolute; */
     pointer-events: none;
     color: #3535352d;
+    align-self: flex-start;
+    margin-right: 5vh;
 }
 
     
@@ -579,13 +589,36 @@ body {
         background-color: var(--primary-yelllow);
         font-size: 1.2rem;
         border-radius: 40px;
-        height: min(60px,10vh);
-        width: min(150px,20vh);
+        height: min(50px,10vh);
+        width: min(170px,20vh);
         font-size: min(12pt,2vh);
         transition: .3s;
     }
 
     .btn_finalizar:hover{
-        transform:scale(1.1,1.1);
         cursor: pointer;
+        background-color: #ffe089;
     }
+
+
+    .wrap-footer{
+        flex-wrap: wrap;
+        width: 100%;
+       justify-content: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    }
+
+.container_outros {
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+    
+
