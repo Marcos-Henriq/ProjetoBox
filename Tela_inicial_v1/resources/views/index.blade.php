@@ -683,23 +683,23 @@
     <div id="comerciante_outros" class="wrapper">
         <div class="container_outros">
             <div onclick="troca('comerciante_outros', 'fim','Configuraçao de roterização')" class="card">
-                <div class="card_yellow"><img src="" alt=""></div>
+                <div class="card_yellow"><img src="img/SistemaComercianteOutros/presentation-board-text-chart.svg" alt=""></div>
                 <h3 class="title-card">Configuração de roteirização</h3>
             </div>
             <div onclick="troca('comerciante_outros', 'fim','Configuração de agrupamento')" class="card">
-                <div class="card_yellow"><img src="img/comerciante_outros/User, Profile.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SistemaComercianteOutros/Basket, Pack.svg" alt=""></div>
                 <h3 class="title-card">Configuração de agrupamento</h3>
             </div>
             <div onclick="troca('comerciante_outros', 'fim','Configuração de despacho')" class="card">
-                <div class="card_yellow"><img src="img/comerciante_outros/single-user-minus-delete-remove.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SistemaComercianteOutros/Basket, Pack, Enter.svg" alt=""></div>
                 <h3 class="title-card">Configuração de despacho</h3>
             </div>
             <div onclick="troca('comerciante_outros', 'fim','Opções de confirmação de retirada')" class="card">
-                <div class="card_yellow"><img src="img/comerciante_outros/Key.svg"></div>
+                <div class="card_yellow"><img src="img/SistemaComercianteOutros/Basket.svg"></div>
                 <h3 class="title-card">Opções de confirmação de retirada </h3>
             </div>
             <div onclick="troca('comerciante_outros', 'fim','Opções de confirmação de entrega')" class="card">
-                <div class="card_yellow"><img src="img/comerciante_outros/users-profile-group.svg" alt=""></div>
+                <div class="card_yellow"><img src="img/SistemaComercianteOutros/Basket , Check mark.svg" alt=""></div>
                 <h3 class="title-card">Opções de confirmação de entrega</h3>
             </div>
         </div>
