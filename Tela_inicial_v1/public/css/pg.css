@@ -157,3 +157,13 @@ select{
     height: 20px;
     width: 20px;
 }
+.text-path {
+    color: #83838391;
+    font-size: clamp(.3vh, 14pt, 2vh);
+    margin: 0%;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+}

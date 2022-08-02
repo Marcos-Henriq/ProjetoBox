@@ -15,10 +15,12 @@ function troca(id, aparecer,desc) {
         return  
     }else if(aparecer=='pg'){
         caminho.push(desc);
+        document.getElementById("formulario").action="pg"
         document.getElementById("but").style.background="#ffb800" 
         document.getElementById("but").style.color="black" 
         document.getElementById("but").style.pointerEvents="all" 
         document.getElementById("teste").value=caminho
+        document.getElementById("pg_use").value=true
         console.log(document.getElementById("teste").value)
         return
         // window.location="processosAdm"

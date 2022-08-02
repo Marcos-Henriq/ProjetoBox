@@ -717,8 +717,9 @@
             </p>
         </div>  
     </footer>
-    <form  onsubmit="trocar()" method="GET"  action="form">
+    <form   id="formulario" onsubmit="trocar()" method="GET"  action="form">
     <input id="teste" value="111" name="inp"  type="hidden">
+    <input id="pg_use" value="111" name="pg"  type="hidden">
     <input  id="but" class="segredo" value="Proximo" type="submit">
     </form>
 </div>
