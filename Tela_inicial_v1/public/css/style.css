@@ -627,8 +627,9 @@ body {
 }
 
 .btn_finalizar:hover {
+    background-color: #1a361f;
+    color: white;
     cursor: pointer;
-    background-color: #ffe089;
 }
 
 
@@ -640,6 +641,20 @@ body {
     flex-direction:column-reverse;
     align-items: center;
  }   
+}
+.voltar_form{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    
+        
+
+}
+
+.voltar_form:hover{
+    color: #35353542;
 }
 
 

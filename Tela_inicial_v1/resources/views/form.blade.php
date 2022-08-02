@@ -64,6 +64,7 @@
   <div class="header"></div>
   <!--Banner-->
 <div id="caminho" ></div>
+<span  onclick="voltar()" class="voltar_form" >Voltar</span> 
   <div class="wrapper">
 
     <main class="content-main">

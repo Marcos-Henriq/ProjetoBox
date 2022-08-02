@@ -146,8 +146,7 @@ select{
     border: 0ch;
 }
 .btn-finalizar:hover{
-    background-color: #1a361f;
-    color: white;
+    background-color: #f3c95e;
     cursor: pointer;
 }
 
