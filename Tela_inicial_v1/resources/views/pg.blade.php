@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/pg.css">
     <title>HOME | BoxDelivery</title>
 </head>
+<script src="/js/scripts.js"></script>
 
 <body>
     <header class="header-main">
@@ -21,8 +22,8 @@
     $recebendo=explode(",",$recebendo);     
         ?>
         <div class="container-stats">
-           <div class="voltar"> <img src="img/Right, Arrow.svg" alt="">
-            <h3>Voltar</h3></div>
+           <div class="voltar"> <img src="" alt="">
+            <h3 onclick="voltar()">Voltar</h3></div>
             <div class="stats">
  
                
@@ -50,8 +51,8 @@
                     <div class="section-left">
                         <span class="label" >Tipo de contratação</span>
                         <div class="section-chk">
-                            <span class="label" >CLT</span><input id="chk"  value="CLT" name="seila" class="chk" type="radio">
-                            <span  class="label" >PJ</span><input id="chk" value="PJ" name="seila" class="chk" type="radio">
+                            <span class="label" >CLT</span><input id="chk"  value="CLT" name="chk_box" class="chk" type="radio">
+                            <span  class="label" >PJ</span><input id="chk" value="PJ" name="chk_box" class="chk" type="radio">
                         </div>
                         <span class="label" >Local de Trabalho:</span>
                         <select name="" id=""></select>
@@ -60,7 +61,7 @@
                         <span class="label" >Expectativas de inicio de atividades</span>
                         <input placeholder="DD/MM/AAAA" class="inp-date" type="date">    
                         <div  class="div_finalizar">
-                            <button onclick="reita()" class="btn-finalizar">Continuar
+                            <button onclick="check()" class="btn-finalizar">Continuar
                                 </button>
                             </div>
                             
@@ -77,8 +78,7 @@
     </html>
     
     <script>
-        function reita(){
-            var valor= document.getElementById("chk").value
-        alert(valor)
+        function check(){
+            var valor= document.querySelector('input[name="chk_box"]:checked').value
         }
     </script>

@@ -21,7 +21,8 @@ function troca(id, aparecer,desc) {
         document.getElementById("but").style.pointerEvents="all" 
         document.getElementById("teste").value=caminho
         document.getElementById("pg_use").value=true
-        console.log(document.getElementById("teste").value)
+        document.getElementById('formulario').action='pg'
+        console.log(document.getElementById("teste").value);
         return
         // window.location="processosAdm"
         
@@ -33,7 +34,7 @@ function troca(id, aparecer,desc) {
     if (caminho.length > 0) {   
         document.getElementById('linkHome').style.display = 'flex'
     }
-    document.getElementById('gambiarra').innerHTML=caminho
+    document.getElementById('teste').innerHTML=caminho
 
  document.getElementById('containerRoute').innerHTML = ``
 for (let i =0; i<caminho.length;i++){
@@ -73,6 +74,9 @@ function voltar(){
     }
 }
 
+function voltar(){
+            window.location="/"
+        }
 
 
 
