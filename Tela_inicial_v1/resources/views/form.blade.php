@@ -18,7 +18,7 @@
   echo(var_dump($recebendo));  
   echo($nome ?? '');
   echo($cpf ?? '');
-  echo($chk_box ?? '');
+  echo($chk_box);
   echo($cargo ?? '');
   echo($senioridade ?? '');
   echo($local_trabalho ?? '');

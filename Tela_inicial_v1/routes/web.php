@@ -41,7 +41,7 @@ Route::get('/enviar', function () {
     $cpf= request('cpf');
     $cargo= request('cargo');
     $senioridade= request('senioridade');
-    $chk_box= request('chk_boxc');
+    $chk_box= request('chk_box');
     $local_trabalho= request('local_trabalho');
     $cidade_estado= request('cidade_estado');
     return view('form', ['nome' => $nome,
