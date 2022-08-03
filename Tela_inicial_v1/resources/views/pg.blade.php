@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=], initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+
     <link rel="stylesheet" href="/css/pg.css">
     <title>HOME | BoxDelivery</title>
 </head>
@@ -20,131 +24,143 @@
     <body>
         <div class="container-stats">
             <div class="voltar"> <img src="" alt="">
-            <h3 onclick="voltar()">Voltar</h3></div>
+                <h3 onclick="voltar()">Voltar</h3>
+            </div>
             <div class="stats">
-               
+
             </div>
         </div>
-    <form   method="GET" action="enviar">
-        <input name="caminho" value="<?php echo($recebendo);
-        ?>" 
-        type="hidden">
-        <div class="wrapper">
-            <div class="container">
-                <div class="section-left">
-                    <span   class="label" >Nome Completo do funcionario, sem abreviações:</span>
-                    <input name="nome_completo" type="text">
-                    <span class="label" >CPF do Colaborador "Sem ponto e virgula"</span>
-                    <input name="cpf" type="text">
-                    <span class="label" >Cargos:</span>
-                    <select name="cargo" id="">
-                        <option value="ADVOGADO">ADVOGADO</option>
-                        <option value="ANALISTA_COMERCIAL">ANALISTA COMERCIAL</option>
-                        <option value="ANALISTA_CONTAS_A_PAGAR">ANALISTA CONTAS A PAGAR</option>
-                        <option value="ANALISTA_CONTAS_A_RECEBER">ANALISTA CONTAS A RECEBER</option>
-                        <option value="ANALISTA_CADASTRO">ANALISTA CADASTRO</option>
-                        <option value="ANALISTA_COMPRAS">ANALISTA COMPRAS</option>
-                        <option value="ANALISTA_CRM">ANALISTA CRM</option>
-                        <option value="ANALISTA_DADOS">ANALISTA DADOS</option>
-                        <option value="ANALISTA_DEPARTAMENTO PESSOAL">ANALISTA DEPARTAMENTO PESSOAL</option>
-                        <option value="ANALISTA_GENTE_E_CULTURA">ANALISTA GENTE E CULTURA</option>
-                        <option value="ANALISTA_IMPLANTAÇÃO">ANALISTA IMPLANTAÇÃO</option>
-                        <option value="ANALISTA_MARKETING">ANALISTA MARKETING</option>
-                        <option value="ANALISTA_MKT_DIGITAL_E_PERFORMANCE">ANALISTA MKT DIGITAL E PERFORMANCE</option>
-                        <option value="ANALISTA_RECRUTAMENTO_E_SELEÇÃO">ANALISTA RECRUTAMENTO E SELEÇÃO</option>
-                        <option value="ANALISTA_SUPORTE">ANALISTA SUPORTE</option>
-                        <option value="ANALISTA_SUPORTE_BACKOFFICE">ANALISTA SUPORTE BACKOFFICE</option>
-                        <option value="ANALISTA_SUPORTE_E_INFRAESTRUTURA">ANALISTA SUPORTE E INFRAESTRUTURA</option>
-                        <option value="ANALISTA_FINANCEIRO">ANALISTA FINANCEIRO</option>
-                        <option value="ANALISTA_OPERACIONAL">ANALISTA OPERACIONAL</option>
-                        <option value="ANALISTA_SQL">ANALISTA SQL</option>
-                        <option value="ANALISTA_TECH RECRUITER">ANALISTA TECH RECRUITER</option>
-                        <option value="ARQUITETO_SOFTWAR">ARQUITETO SOFTWARE</option>
-                        <option value="ASSISTENTE_ADMINISTRATIVO">ASSISTENTE ADMINISTRATIVO</option>
-                        <option value="ASSISTENTE_COMERCIAL">ASSISTENTE COMERCIAL</option>
-                        <option value="ASSISTENTE_CADASTRO">ASSISTENTE CADASTRO</option>
-                        <option value="ASSISTENTE_CONTAS_A_PAGAR">ASSISTENTE CONTAS A PAGAR</option>
-                        <option value="ASSISTENTE_CONTAS_A_RECEBER">ASSISTENTE CONTAS A RECEBER</option>
-                        <option value="ASSISTENTE_GENTE_E_CULTURA">ASSISTENTE GENTE E CULTURA</option>
-                        <option value="ASSISTENTE_LOGÍSTICA">ASSISTENTE LOGÍSTICA</option>
-                        <option value="ASSISTENTE_MARKETING">ASSISTENTE MARKETING</option>
-                        <option value="AUXILIAR_ADMINISTRATIVO">AUXILIAR ADMINISTRATIVO</option>
-                        <option value="AUXILIAR_LOGÍSTICA">AUXILIAR LOGÍSTICA</option>
-                        <option value="AUXILIAR_SECRETARIADO">AUXILIAR SECRETARIADO</option>
-                        <option value="AUXILIAR_SERVIÇOS GERAIS">AUXILIAR SERVIÇOS GERAIS</option>
-                        <option value="CEO">CEO</option>
-                        <option value="CFO">CFO</option>
-                        <option value="CINEGRAFISTA">CINEGRAFISTA</option>
-                        <option value="COORDENADOR_MARKETING">COORDENADOR MARKETING</option>
-                        <option value="COORDENADOR_OPERACIONAL">COORDENADOR OPERACIONAL</option>
-                        <option value="COORDENADOR_FINANCEIRO">COORDENADOR FINANCEIRO</option>
-                        <option value="CTO">CTO</option>
-                        <option value="DATA_SCIENCE">DATA SCIENCE</option>
-                        <option value="DESENVOLVEDOR_ANDROID">DESENVOLVEDOR ANDROID</option>
-                        <option value="DESENVOLVEDOR_BACKEND">DESENVOLVEDOR BACKEND</option>
-                        <option value="DESENVOLVEDOR_FRONTEND">DESENVOLVEDOR FRONTEND</option>
-                        <option value="DESENVOLVEDOR_FULLSTACK">DESENVOLVEDOR FULLSTACK</option>
-                        <option value="DESENVOLVEDOR_IOS">DESENVOLVEDOR IOS</option>
-                        <option value="DESENVOLVEDOR_QUALITY_ASSURANCE">DESENVOLVEDOR QUALITY ASSURANCE</option>
-                        <option value="DESIGN_UX/UI">DESIGN UX/UI</option>
-                        <option value="DESIGNER">DESIGNER</option>
-                        <option value="DESIGNER_MOTION">DESIGNER MOTION</option>
-                        <option value="DESIGNER_GRÁFICO">DESIGNER GRÁFICO</option>
-                        <option value="DIRETOR_COMERCIAL">DIRETOR COMERCIAL</option>
-                        <option value="DIRETOR_TECNOLOGIA">DIRETOR TECNOLOGIA</option>
-                        <option value="DIRETOR_JURÍDICO">DIRETOR JURÍDICO</option>
-                        <option value="ENCARREGADO">ENCARREGADO</option>
-                        <option value="ENGENHEIRO_SOFTWARE">ENGENHEIRO SOFTWARE</option>
-                        <option value="ENGENHEIRO_SEGURANÇA">ENGENHEIRO SEGURANÇA</option>
-                        <option value="ESTAGIÁRIO">ESTAGIÁRIO</option>
-                        <option value="FACILITADOR_SHOPPPER">FACILITADOR SHOPPPER</option>
-                        <option value="GERENTE_COMERCIAL">GERENTE COMERCIAL</option>
-                        <option value="GERENTE_CONTAS">GERENTE CONTAS</option>
-                        <option value="GERENTE_ESTRATÉGIA">GERENTE ESTRATÉGIA</option>
-                        <option value="GERENTE_MARKETING">GERENTE MARKETING</option>
-                        <option value="GERENTE_PROCESSOS">GERENTE PROCESSOS</option>
-                        <option value="GERENTE_TI">GERENTE TI</option>
-                        <option value="GERENTE_FINANCEIRO">GERENTE FINANCEIRO</option>
-                        <option value="GERENTE_OPERACIONAL">GERENTE OPERACIONAL</option>
-                        <option value="MOBILE_IOS">MOBILE IOS</option>
-                        <option value="MOBILE_IOS">MOTORISTA</option>
-                        <option value="PRODUCT_MANAGER_(PM)">PRODUCT MANAGER (PM)</option>
-                        <option value="PRODUCT_MANAGER_(PO)">PRODUCT MANAGER (PO)</option>
-                        <option value="QUALITY_ASSURANCE">QUALITY ASSURANCE</option>
-                        <option value="REDATOR">REDATOR</option>
-                        <option value="REPRESENTANTE_COMERCIAL_EXTERNO">REPRESENTANTE COMERCIAL EXTERNO</option>
-                        <option value="REPRESENTANTE_COMERCIAL_INTERNO">REPRESENTANTE COMERCIAL INTERNO</option>
-                        <option value="SECRETÁRIA_EXECUTIVA">SECRETÁRIA EXECUTIVA</option>
-                        <option value="SUPERVISOR_COMERCIAL">SUPERVISOR COMERCIAL</option>
-                        <option value="SUPERVISOR_GENTE_CULTURA">SUPERVISOR GENTE CULTURA</option>
-                        <option value="SUPERVISOR_OPERACIONAL_(EXPANSÃO)">SUPERVISOR OPERACIONAL (EXPANSÃO)</option>
-                        <option value="SUPERVISOR_OPERACIONAL_(HUB)">SUPERVISOR OPERACIONAL (HUB)</option>
-                        <option value="SUPERVISOR_OPERACIONAL_(OPERAÇÃO)">SUPERVISOR OPERACIONAL (OPERAÇÃO)</option>
-                        <option value="TECH_LEAD<">TECH LEAD</option>
-                        <option value="TÉCNICOELETRÔNICA">TÉCNICOELETRÔNICA</option>
-                    </select>
-                        <span class="label" >Senioridade:</span>
-                        <select name="senioridade" id="">
-                            <option value="Não_se_aplica">Não se aplica</option>
-                            <option value="Júnior">Júnior</option>
-                            <option value="Pleno">Pleno</option>
-                            <option value="Sênior">Sênior</option>
-                        </select>
-                        <span class="label" >Área:</span>
-                        <select name="area" id="">
-                            <option value="COMERCIAL">COMERCIAL</option>
-                            <option value="DESENVOLVIMENTO">DESENVOLVIMENTO</option>
-                            <option value="DIRETORIA_(CEO)">DIRETORIA (CEO)</option>
-                            <option value="FINANCEIRO">FINANCEIRO</option>
-                            <option value="GENTE_E_CULTURA">GENTE E CULTURA</option>
-                            <option value="JURÍDICO">JURÍDICO</option>
-                            <option value="MARKETING">MARKETING</option>
-                            <option value="OPERACIONAL">OPERACIONAL</option>
-                            <option value="PRODUTOS">PRODUTOS</option>
-                            <option value="RH">RH</option>
-                        </select>
-                        <span class="label" >Sub área:</span>
-                            <select name="sub_area" id="">
+        <form method="GET" action="enviar">
+            <input name="caminho" value="<?php echo ($recebendo);
+                                            ?>" type="hidden">
+            <div class="wrapper">
+                <div class="container">
+                    <div class="section-left">
+                        <div class="input-box">
+                            <span class="label">Nome Completo do funcionario, sem abreviações:</span>
+                            <input name="nome_completo" type="text">
+                        </div>
+                        <div class="input-box">
+                            <span class="label">CPF do Colaborador "Sem ponto e virgula"</span>
+                            <input name="cpf" type="text">
+                        </div>
+                        <div class="input-box">
+                            <span class="label">Cargos:</span>
+                            <select name="cargo" id="select_cargos">
+                                <option value="ADVOGADO">ADVOGADO</option>
+                                <option value="ANALISTA_COMERCIAL">ANALISTA COMERCIAL</option>
+                                <option value="ANALISTA_CONTAS_A_PAGAR">ANALISTA CONTAS A PAGAR</option>
+                                <option value="ANALISTA_CONTAS_A_RECEBER">ANALISTA CONTAS A RECEBER</option>
+                                <option value="ANALISTA_CADASTRO">ANALISTA CADASTRO</option>
+                                <option value="ANALISTA_COMPRAS">ANALISTA COMPRAS</option>
+                                <option value="ANALISTA_CRM">ANALISTA CRM</option>
+                                <option value="ANALISTA_DADOS">ANALISTA DADOS</option>
+                                <option value="ANALISTA_DEPARTAMENTO PESSOAL">ANALISTA DEPARTAMENTO PESSOAL</option>
+                                <option value="ANALISTA_GENTE_E_CULTURA">ANALISTA GENTE E CULTURA</option>
+                                <option value="ANALISTA_IMPLANTAÇÃO">ANALISTA IMPLANTAÇÃO</option>
+                                <option value="ANALISTA_MARKETING">ANALISTA MARKETING</option>
+                                <option value="ANALISTA_MKT_DIGITAL_E_PERFORMANCE">ANALISTA MKT DIGITAL E PERFORMANCE</option>
+                                <option value="ANALISTA_RECRUTAMENTO_E_SELEÇÃO">ANALISTA RECRUTAMENTO E SELEÇÃO</option>
+                                <option value="ANALISTA_SUPORTE">ANALISTA SUPORTE</option>
+                                <option value="ANALISTA_SUPORTE_BACKOFFICE">ANALISTA SUPORTE BACKOFFICE</option>
+                                <option value="ANALISTA_SUPORTE_E_INFRAESTRUTURA">ANALISTA SUPORTE E INFRAESTRUTURA</option>
+                                <option value="ANALISTA_FINANCEIRO">ANALISTA FINANCEIRO</option>
+                                <option value="ANALISTA_OPERACIONAL">ANALISTA OPERACIONAL</option>
+                                <option value="ANALISTA_SQL">ANALISTA SQL</option>
+                                <option value="ANALISTA_TECH RECRUITER">ANALISTA TECH RECRUITER</option>
+                                <option value="ARQUITETO_SOFTWAR">ARQUITETO SOFTWARE</option>
+                                <option value="ASSISTENTE_ADMINISTRATIVO">ASSISTENTE ADMINISTRATIVO</option>
+                                <option value="ASSISTENTE_COMERCIAL">ASSISTENTE COMERCIAL</option>
+                                <option value="ASSISTENTE_CADASTRO">ASSISTENTE CADASTRO</option>
+                                <option value="ASSISTENTE_CONTAS_A_PAGAR">ASSISTENTE CONTAS A PAGAR</option>
+                                <option value="ASSISTENTE_CONTAS_A_RECEBER">ASSISTENTE CONTAS A RECEBER</option>
+                                <option value="ASSISTENTE_GENTE_E_CULTURA">ASSISTENTE GENTE E CULTURA</option>
+                                <option value="ASSISTENTE_LOGÍSTICA">ASSISTENTE LOGÍSTICA</option>
+                                <option value="ASSISTENTE_MARKETING">ASSISTENTE MARKETING</option>
+                                <option value="AUXILIAR_ADMINISTRATIVO">AUXILIAR ADMINISTRATIVO</option>
+                                <option value="AUXILIAR_LOGÍSTICA">AUXILIAR LOGÍSTICA</option>
+                                <option value="AUXILIAR_SECRETARIADO">AUXILIAR SECRETARIADO</option>
+                                <option value="AUXILIAR_SERVIÇOS GERAIS">AUXILIAR SERVIÇOS GERAIS</option>
+                                <option value="CEO">CEO</option>
+                                <option value="CFO">CFO</option>
+                                <option value="CINEGRAFISTA">CINEGRAFISTA</option>
+                                <option value="COORDENADOR_MARKETING">COORDENADOR MARKETING</option>
+                                <option value="COORDENADOR_OPERACIONAL">COORDENADOR OPERACIONAL</option>
+                                <option value="COORDENADOR_FINANCEIRO">COORDENADOR FINANCEIRO</option>
+                                <option value="CTO">CTO</option>
+                                <option value="DATA_SCIENCE">DATA SCIENCE</option>
+                                <option value="DESENVOLVEDOR_ANDROID">DESENVOLVEDOR ANDROID</option>
+                                <option value="DESENVOLVEDOR_BACKEND">DESENVOLVEDOR BACKEND</option>
+                                <option value="DESENVOLVEDOR_FRONTEND">DESENVOLVEDOR FRONTEND</option>
+                                <option value="DESENVOLVEDOR_FULLSTACK">DESENVOLVEDOR FULLSTACK</option>
+                                <option value="DESENVOLVEDOR_IOS">DESENVOLVEDOR IOS</option>
+                                <option value="DESENVOLVEDOR_QUALITY_ASSURANCE">DESENVOLVEDOR QUALITY ASSURANCE</option>
+                                <option value="DESIGN_UX/UI">DESIGN UX/UI</option>
+                                <option value="DESIGNER">DESIGNER</option>
+                                <option value="DESIGNER_MOTION">DESIGNER MOTION</option>
+                                <option value="DESIGNER_GRÁFICO">DESIGNER GRÁFICO</option>
+                                <option value="DIRETOR_COMERCIAL">DIRETOR COMERCIAL</option>
+                                <option value="DIRETOR_TECNOLOGIA">DIRETOR TECNOLOGIA</option>
+                                <option value="DIRETOR_JURÍDICO">DIRETOR JURÍDICO</option>
+                                <option value="ENCARREGADO">ENCARREGADO</option>
+                                <option value="ENGENHEIRO_SOFTWARE">ENGENHEIRO SOFTWARE</option>
+                                <option value="ENGENHEIRO_SEGURANÇA">ENGENHEIRO SEGURANÇA</option>
+                                <option value="ESTAGIÁRIO">ESTAGIÁRIO</option>
+                                <option value="FACILITADOR_SHOPPPER">FACILITADOR SHOPPPER</option>
+                                <option value="GERENTE_COMERCIAL">GERENTE COMERCIAL</option>
+                                <option value="GERENTE_CONTAS">GERENTE CONTAS</option>
+                                <option value="GERENTE_ESTRATÉGIA">GERENTE ESTRATÉGIA</option>
+                                <option value="GERENTE_MARKETING">GERENTE MARKETING</option>
+                                <option value="GERENTE_PROCESSOS">GERENTE PROCESSOS</option>
+                                <option value="GERENTE_TI">GERENTE TI</option>
+                                <option value="GERENTE_FINANCEIRO">GERENTE FINANCEIRO</option>
+                                <option value="GERENTE_OPERACIONAL">GERENTE OPERACIONAL</option>
+                                <option value="MOBILE_IOS">MOBILE IOS</option>
+                                <option value="MOBILE_IOS">MOTORISTA</option>
+                                <option value="PRODUCT_MANAGER_(PM)">PRODUCT MANAGER (PM)</option>
+                                <option value="PRODUCT_MANAGER_(PO)">PRODUCT MANAGER (PO)</option>
+                                <option value="QUALITY_ASSURANCE">QUALITY ASSURANCE</option>
+                                <option value="REDATOR">REDATOR</option>
+                                <option value="REPRESENTANTE_COMERCIAL_EXTERNO">REPRESENTANTE COMERCIAL EXTERNO</option>
+                                <option value="REPRESENTANTE_COMERCIAL_INTERNO">REPRESENTANTE COMERCIAL INTERNO</option>
+                                <option value="SECRETÁRIA_EXECUTIVA">SECRETÁRIA EXECUTIVA</option>
+                                <option value="SUPERVISOR_COMERCIAL">SUPERVISOR COMERCIAL</option>
+                                <option value="SUPERVISOR_GENTE_CULTURA">SUPERVISOR GENTE CULTURA</option>
+                                <option value="SUPERVISOR_OPERACIONAL_(EXPANSÃO)">SUPERVISOR OPERACIONAL (EXPANSÃO)</option>
+                                <option value="SUPERVISOR_OPERACIONAL_(HUB)">SUPERVISOR OPERACIONAL (HUB)</option>
+                                <option value="SUPERVISOR_OPERACIONAL_(OPERAÇÃO)">SUPERVISOR OPERACIONAL (OPERAÇÃO)</option>
+                                <option value="TECH_LEAD<">TECH LEAD</option>
+                                <option value="TÉCNICOELETRÔNICA">TÉCNICOELETRÔNICA</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <span class="label">Senioridade:</span>
+                            <select name="senioridade" id="select_senioridade">
+                                <option value="Não_se_aplica">Não se aplica</option>
+                                <option value="Júnior">Júnior</option>
+                                <option value="Pleno">Pleno</option>
+                                <option value="Sênior">Sênior</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+
+                            <span class="label">Área:</span>
+                            <select name="area" id="select_area">
+                                <option value="COMERCIAL">COMERCIAL</option>
+                                <option value="DESENVOLVIMENTO">DESENVOLVIMENTO</option>
+                                <option value="DIRETORIA_(CEO)">DIRETORIA (CEO)</option>
+                                <option value="FINANCEIRO">FINANCEIRO</option>
+                                <option value="GENTE_E_CULTURA">GENTE E CULTURA</option>
+                                <option value="JURÍDICO">JURÍDICO</option>
+                                <option value="MARKETING">MARKETING</option>
+                                <option value="OPERACIONAL">OPERACIONAL</option>
+                                <option value="PRODUTOS">PRODUTOS</option>
+                                <option value="RH">RH</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <span class="label">Sub área:</span>
+                            <select name="sub_area" id="select_sub_area">
                                 <option value="COMERCIAL_EXTERNO">COMERCIAL EXTERNO</option>
                                 <option value="COMERCIAL_INTERNO_(SEDE)">COMERCIAL INTERNO (SEDE)</option>
                                 <option value="COMERCIAL_HUB">COMERCIAL HUB</option>
@@ -169,17 +185,19 @@
                                 <option value="RH">RH</option>
                                 <option value="TECNOLOGIA">TECNOLOGIA</option>
                             </select>
-                        
-                        
-                    </div>
-                    <div class="section-left">
-                        <span class="label" >Tipo de contratação</span>
-                        <div class="section-chk">
-                            <span class="label" >CLT</span><input id="chk"  value="CLT" name="chk_box" class="chk" type="radio">
-                            <span  class="label" >PJ</span><input id="chk" value="PJ" name="chk_box" class="chk" type="radio">
                         </div>
-                        <span class="label" >Local de Trabalho:</span>
-                        <select name="local_de_trabalho" id="">
+
+
+
+                    </div>
+                    <div class="section-right">
+                        <span class="label">Tipo de contratação</span>
+                        <div class="section-chk">
+                            <span class="label">CLT</span><input id="chk" value="CLT" name="chk_box" class="chk" type="radio">
+                            <span class="label">PJ</span><input id="chk" value="PJ" name="chk_box" class="chk" type="radio">
+                        </div>
+                        <span class="label">Local de Trabalho:</span>
+                        <select name="local_de_trabalho" id="select_local_de_trabalho">
                             <option value="BANGU_SHOPPING">BANGU SHOPPING</option>
                             <option value="BOULEVARD_LONDRINA_SOPPING">BOULEVARD LONDRINA SOPPING</option>
                             <option value="BOULEVARD_SHOPPING_BAURU">BOULEVARD SHOPPING BAURU</option>
@@ -236,8 +254,8 @@
                             <option value="UBERLANDIA_SHOPPING">UBERLANDIA SHOPPING</option>
                             <option value="VIA PARQUE_SHOPPING">VIA PARQUE SHOPPING</option>
                         </select>
-                        <span class="label" >Cidade estado:</span>
-                        <select name="cidade_estado" id="">
+                        <span class="label">Cidade estado:</span>
+                        <select name="cidade_estado" id="select_cidade_estado">
                             <option value="ARAÇATUBA_-_SP">ARAÇATUBA - SP</option>
                             <option value="BAURU_-_SP">BAURU - SP</option>
                             <option value="BELÉM_-_PA">BELÉM - PA</option>
@@ -275,27 +293,45 @@
                             <option value="VILA_VELHA_-_ES">VILA VELHA - ES</option>
                             <option value="VITÓRIA_DA_CONQUISTA_-_BA">VITÓRIA DA CONQUISTA - BA</option>
                         </select>
-                        <span class="label" >Expectativas de inicio de atividades</span>
-                        <input placeholder="DD/MM/AAAA" class="inp-date" type="date">    
-                        <div  class="div_finalizar">
+                        <span class="label">Expectativas de inicio de atividades</span>
+                        <input placeholder="DD/MM/AAAA" class="inp-date" type="date">
+                        <div class="div_finalizar">
                             <input type="submit" label="Continuar" onclick="check()" class="btn-finalizar">
-                                </input>
-                            </div>
-                            
+                            </input>
                         </div>
 
                     </div>
-      </form>
-            </div>
+
+                </div>
+        </form>
+        </div>
         </div>
 
-        
+
     </body>
-    
-    </html>
-    
-    <script>
-        function check(){
-            var valor= document.querySelector('input[name="chk_box"]:checked').value
-        }
-    </script>
+
+</html>
+
+<script>
+    function check() {
+        var valor = document.querySelector('input[name="chk_box"]:checked').value
+    }
+    $(document).ready(function() {
+        $('#select_cargos').select2();
+    });
+    $(document).ready(function() {
+        $('#select_senioridade').select2();
+    });
+    $(document).ready(function() {
+        $('#select_area').select2();
+    });
+    $(document).ready(function() {
+        $('#select_sub_area').select2();
+    });
+    $(document).ready(function() {
+        $('#select_local_de_trabalho').select2();
+    });
+    $(document).ready(function() {
+        $('#select_cidade_estado').select2();
+    });
+</script>
