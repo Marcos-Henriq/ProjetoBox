@@ -25,7 +25,7 @@
                
             </div>
         </div>
-    <form   method="GET" action="enviar">
+    <form   method="GET" action="/form">
         <input name="caminho" value="<?php echo($recebendo);
         ?>" 
         type="hidden">
@@ -276,7 +276,7 @@
                             <option value="VITÓRIA_DA_CONQUISTA_-_BA">VITÓRIA DA CONQUISTA - BA</option>
                         </select>
                         <span class="label" >Expectativas de inicio de atividades</span>
-                        <input placeholder="DD/MM/AAAA" class="inp-date" type="date">    
+                        <input name="data" placeholder="DD/MM/AAAA" class="inp-date" type="date">    
                         <div  class="div_finalizar">
                             <input type="submit" label="Continuar" onclick="check()" class="btn-finalizar">
                                 </input>

@@ -35,7 +35,8 @@ Route::get('/form', function () {
         return view('form', ['recebendo' => $recebendo]);
 });
 
-Route::get('/enviar', function () {
+Route::get('/form', function () {
+    $data= request('data');
     $recebendo= request('caminho');
     $nome= request('nome_completo');
     $cpf= request('cpf');
@@ -44,14 +45,17 @@ Route::get('/enviar', function () {
     $chk_box= request('chk_box');
     $local_trabalho= request('local_trabalho');
     $cidade_estado= request('cidade_estado');
-    return view('form', ['nome' => $nome,
-                         'recebendo'=>$recebendo,
-                         'cpf'=>$cpf,
-                        'cargo'=>$cargo,
-                        'senioridade'=>$senioridade,
-                        'chk_box'=>$chk_box,
-                        'local_trabalho'=>$local_trabalho,  
-                        'cidade_estado'=>$cidade_estado]);  
+    return view('form', 
+                    ['nome'         =>      $nome,
+                    'recebendo'     =>      $recebendo,
+                    'cargo'         =>      $cargo,
+                    'senioridade'   =>      $senioridade,
+                    'chk_box'       =>      $chk_box,
+                    'local_trabalho'=>      $local_trabalho,  
+                    'cidade_estado' =>      $cidade_estado,
+                    'cpf'           =>      $cpf,
+                    'data'          =>      $data
+                    ]);  
 });
 Route::get('/pg', function () {
     $recebendo= request('inp');
