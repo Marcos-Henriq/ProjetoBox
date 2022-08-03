@@ -648,13 +648,24 @@ body {
     height: 20px;
     width: 20px;
     cursor: pointer;
-    
+    font-size: clamp(12pt,8pt,2vh);
+    transform: translateX(20vh);
+    position: absolute;
         
 
 }
 
 .voltar_form:hover{
     color: #35353542;
+}
+
+.caminho{
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+    height:clamp(50px,10px,5vh);
+    transform: translateY(max(20px,20px));
+    width: 18%;
 }
 
 

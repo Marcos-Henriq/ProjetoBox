@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     font-family: 'roboto';
     font-weight: 300;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 
 
@@ -46,11 +46,14 @@ h1,h3{
 }
 .container-stats{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 20%;
     color: rgb(0, 0, 0);
     width:  clamp(70%,100%,100%);
     align-self: center;
+    font-size: clamp(16pt,8pt,2vh);
+
+
 }
 .stats{
     width: min(40%,1000px);
@@ -59,6 +62,8 @@ h1,h3{
     display: flex;
     justify-content: center;
     align-self: center;
+    font-size: clamp(12pt,8pt,2vh);
+
 }
 
 .section-left{
@@ -171,8 +176,4 @@ select{
 form{
     height: 100%;
     width: 100%;
-}
-h3{
-    font-size: clamp(16pt,1.5vh,3vh);
-    transform: translate(-8vh,1vh);
 }

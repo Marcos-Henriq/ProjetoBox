@@ -14,7 +14,10 @@
 
 <body >
   <?php
-
+echo($nome);
+echo($recebendo);
+echo($cpf);
+echo($chk_box);
   $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra','proAdmin'];
   $type2=false;
     $recebendo=explode(",",$recebendo);     
@@ -60,11 +63,11 @@
   
   ?>
 
-  <!--Header-->
-  <div class="header"></div>
   <!--Banner-->
-<div id="caminho" ></div>
-<span  onclick="voltar()" class="voltar_form" >Voltar</span> 
+<div class="caminho" >
+
+  <span  onclick="voltar()" class="voltar_form" >Voltar</span> 
+</div>
   <div class="wrapper">
 
     <main class="content-main">

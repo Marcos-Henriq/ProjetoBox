@@ -18,33 +18,32 @@
     </head>
 
     <body>
-        <?php
-    $recebendo=explode(",",$recebendo);     
-        ?>
         <div class="container-stats">
-           <div class="voltar"> <img src="" alt="">
+            <div class="voltar"> <img src="" alt="">
             <h3 onclick="voltar()">Voltar</h3></div>
             <div class="stats">
- 
                
             </div>
         </div>
-        <form action="">
+    <form   method="GET" action="enviar">
+        <input name="caminho" value="<?php echo($recebendo);
+        ?>" 
+        type="hidden">
         <div class="wrapper">
             <div class="container">
                 <div class="section-left">
-                    <span class="label" >Nome Completo do funcionario, sem abreviações:</span>
-                    <input type="text">
+                    <span   class="label" >Nome Completo do funcionario, sem abreviações:</span>
+                    <input name="nome_completo" type="text">
                     <span class="label" >CPF do Colaborador "Sem ponto e virgula"</span>
-                    <input type="text">
+                    <input name="cpf" type="text">
                     <span class="label" >Cargos:</span>
-                    <select name="" id=""></select>
+                    <select name="cargo" id=""></select>
                         <span class="label" >Senioridade:</span>
-                        <select name="" id=""></select>
+                        <select name="senioridade" id=""></select>
                         <span class="label" >Local de Trabalho:</span>
-                        <select name="" id=""></select>
+                        <select name="local_trabalho" id=""></select>
                         <span class="label" >Cidade estado:</span>
-                        <select name="" id=""></select>
+                        <select name="cidade_estado" id=""></select>
                         
                         
                     </div>
@@ -61,14 +60,14 @@
                         <span class="label" >Expectativas de inicio de atividades</span>
                         <input placeholder="DD/MM/AAAA" class="inp-date" type="date">    
                         <div  class="div_finalizar">
-                            <button onclick="check()" class="btn-finalizar">Continuar
-                                </button>
+                            <input type="submit" label="Continuar" onclick="check()" class="btn-finalizar">
+                                </input>
                             </div>
                             
                         </div>
 
                     </div>
-                </form>
+      </form>
             </div>
         </div>
 
