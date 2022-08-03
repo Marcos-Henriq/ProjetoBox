@@ -31,26 +31,30 @@ Route::get('/processosAdm', function () {
 
 
 Route::get('/form', function () {
-    $pg_use= request('pg');
+    $recebendo= request('inp');
         return view('form', ['recebendo' => $recebendo]);
 });
+
 Route::get('/enviar', function () {
     $recebendo= request('caminho');
     $nome= request('nome_completo');
     $cpf= request('cpf');
     $cargo= request('cargo');
     $senioridade= request('senioridade');
-    $chk_box= request('chk_box');
+    $chk_box= request('chk_boxc');
+    $local_trabalho= request('local_trabalho');
+    $cidade_estado= request('cidade_estado');
     return view('form', ['nome' => $nome,
                          'recebendo'=>$recebendo,
                          'cpf'=>$cpf,
                         'cargo'=>$cargo,
                         'senioridade'=>$senioridade,
-                        'chk_box'=>$chk_box]);  
+                        'chk_box'=>$chk_box,
+                        'local_trabalho'=>$local_trabalho,  
+                        'cidade_estado'=>$cidade_estado]);  
 });
 Route::get('/pg', function () {
     $recebendo= request('inp');
-    $pg_use= request('pg');
         return view('pg', ['recebendo' => $recebendo]);
     
 });

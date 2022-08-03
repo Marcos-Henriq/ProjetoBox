@@ -14,13 +14,17 @@
 
 <body >
   <?php
-echo($nome);
-echo($recebendo);
-echo($cpf);
-echo($chk_box);
+  $recebendo=explode(',',$recebendo);
+  echo(var_dump($recebendo));  
+  echo($nome ?? '');
+  echo($cpf ?? '');
+  echo($chk_box ?? '');
+  echo($cargo ?? '');
+  echo($senioridade ?? '');
+  echo($local_trabalho ?? '');
+  echo($cidade_estado ?? '');
   $casos=['googleWorkspace','suporteHardware','suporteSoftware','cloud','suporteInfra','proAdmin'];
   $type2=false;
-    $recebendo=explode(",",$recebendo);     
   if(in_array($recebendo[0],$casos)){
     $um=$recebendo[0];
     $dois=$recebendo[1];

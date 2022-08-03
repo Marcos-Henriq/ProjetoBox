@@ -597,7 +597,7 @@
                 <div class="card_yellow"><img src="img/BackOfficeCadastro/User, Profile.svg" alt=""></div>
                 <h3 class="title-card">Alteração de acessos</h3>
             </div>
-            <div onclick="troca('backofficeCadastro', 'fim','Exclusãp de usuarios')" class="card">
+            <div onclick="troca('backofficeCadastro', 'fim','Exclusão de usuarios')" class="card">
                 <div class="card_yellow"><img src="img/BackOfficeCadastro/single-user-minus-delete-remove.svg" alt=""></div>
                 <h3 class="title-card">Exclusão de usuários</h3>
             </div>
