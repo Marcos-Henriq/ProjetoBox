@@ -15,13 +15,9 @@
 <script src="/js/scripts.js"></script>
 
 <body>
-    <header class="header-main">
+    <!-- <header class="header-main">
 
-    </header>
-
-    </head>
-
-    <body>
+    </header> -->
         <div class="container-stats">
             <div class="voltar"> <img src="" alt="">
                 <h3 onclick="voltar()">Voltar</h3>
@@ -191,11 +187,17 @@
 
                     </div>
                     <div class="section-right">
-                        <span class="label">Tipo de contratação</span>
-                        <div class="section-chk">
-                            <span class="label">CLT</span><input id="chk" value="CLT" name="chk_box" class="chk" type="radio">
-                            <span class="label">PJ</span><input id="chk" value="PJ" name="chk_box" class="chk" type="radio">
+                        <div class="tpContratacao">
+
+                            <span class="label">Tipo de contratação</span>
+                            <div class="section-chk">
+                                <span class="label">CLT</span><input id="chk" value="CLT" name="chk_box" class="chk" type="radio">
+                                <span class="label">PJ</span><input id="chk" value="PJ" name="chk_box" class="chk" type="radio">
+                            </div>
                         </div>
+
+                    <div class="input-box">
+
                         <span class="label">Local de Trabalho:</span>
                         <select name="local_de_trabalho" id="select_local_de_trabalho">
                             <option value="BANGU_SHOPPING">BANGU SHOPPING</option>
@@ -254,6 +256,9 @@
                             <option value="UBERLANDIA_SHOPPING">UBERLANDIA SHOPPING</option>
                             <option value="VIA PARQUE_SHOPPING">VIA PARQUE SHOPPING</option>
                         </select>
+                    </div>
+                    <div class="input-box">
+
                         <span class="label">Cidade estado:</span>
                         <select name="cidade_estado" id="select_cidade_estado">
                             <option value="ARAÇATUBA_-_SP">ARAÇATUBA - SP</option>
@@ -293,10 +298,14 @@
                             <option value="VILA_VELHA_-_ES">VILA VELHA - ES</option>
                             <option value="VITÓRIA_DA_CONQUISTA_-_BA">VITÓRIA DA CONQUISTA - BA</option>
                         </select>
+                    </div>
+                    <div class="input-box">
+
                         <span class="label">Expectativas de inicio de atividades</span>
                         <input placeholder="DD/MM/AAAA" class="inp-date" type="date">
+                    </div>
                         <div class="div_finalizar">
-                            <input type="submit" label="Continuar" onclick="check()" class="btn-finalizar">
+                            <input type="submit" value="Continuar" onclick="check()" class="btn-finalizar">
                             </input>
                         </div>
 
@@ -311,10 +320,16 @@
     </body>
 
 </html>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     function check() {
+        Swal.fire({
+            icon: 'success',
+            title: 'Tudo certo!',
+            text: 'LOREM IPSUM',
+        })
         var valor = document.querySelector('input[name="chk_box"]:checked').value
+
     }
     $(document).ready(function() {
         $('#select_cargos').select2();

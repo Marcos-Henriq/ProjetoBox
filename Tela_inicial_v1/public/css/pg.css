@@ -1,46 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(style.css);
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    
+
 }
 
 body {
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
-    font-family: 'roboto';
-    font-weight: 300;
     justify-content: space-evenly;
     align-items: center;
 
 
-    
+
 }
 
-.header-main {
-    width: 100%;
-    height: 10%;
-    background: #353535;
-}
 
 .wrapper {
-    width: clamp(800px,70%,90vw);
-    height: clamp(900px,100vh,30vh);
+    width: 70%;
+    min-height: 90vh;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    box-shadow: 2px 2px 2px 20em rgba(0, 0, 0, 0.106);
+    justify-content: space-evenly;
+
+    box-shadow: -4px 4px 20px rgba(24, 23, 23, 0.25);
 
 }
-
-.container{
+form .wrapper .container {
     width: 100%;
     min-height: 100%;
     display: flex;
@@ -48,25 +39,29 @@ body {
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content:center;
+    gap: 0;
 }
-h1,h3{
+
+h1,
+h3 {
     margin: 0%;
-    font-size: clamp(12pt,8pt,2vh);
+    font-size: clamp(12pt, 8pt, 2vh);
     font-weight: 300;
 
 }
-.container-stats{
 
+.container-stats {
+    width:100%;
     display: flex;
     justify-content: space-around;
-    height: 20%;
+    height: 5vh;
     color: rgb(0, 0, 0);
-    width:  clamp(70%,100%,100%);
     align-self: center;
 }
-.stats{
-    width: min(40%,1000px);
+
+.stats {
+    width: min(40%, 1000px);
     font-size: 2.5vh;
     height: 100%;
     display: flex;
@@ -74,36 +69,39 @@ h1,h3{
     align-self: center;
 }
 
-.section-left{
-    
+.section-left {
     width: 50%;
-    min-height: 100%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-   padding:0rem 2rem;
+    padding: 0rem 2rem;
 
 }
-.section-left .input-box{
+
+.section-left .input-box {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:.5rem;
+    gap: .5rem;
 }
-.section-right{
+
+.section-right {  
     width: 50%;
-    min-height: 100%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding:0rem 2rem;
+    padding: 0rem 2rem;
 }
+
 .section-right .input-box {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap:.5rem;
+    gap: .5rem;
 }
+
 .section-right .tpContratacao {
     width: 100%;
     display: flex;
@@ -113,13 +111,13 @@ h1,h3{
     align-items: center;
 }
 
-.label{
-    font-size: clamp(2vh,16pt,.2vh);
+.label {
+    font-size: clamp(2vh, 16pt, .2vh);
 }
 
-input{
-    height: clamp(5vh,20px,4vh);
-    width:100%;
+input {
+    height: clamp(5vh, 20px, 4vh);
+    width: 100%;
     margin: 0%;
     border: 0ch;
     background-color: #ededeb;
@@ -130,55 +128,57 @@ input{
     border-radius: 5PX 5PX 0 0;
 
 }
-select{
-    width:100%;
-    height: clamp(6vh,40px,4VH);
-    background-color: #ededeb;
+
+select {
+    width: 100% !important;
+    height: clamp(6vh, 40px, 4VH) !important;
+    background-color: #ededeb !important;
     outline: 0ch;
 
 }
 
-.chk{
-    height: clamp(1vh,2vh,2vh);
+.chk {
+    height: clamp(1vh, 2vh, 2vh);
 }
 
-.section-chk{
+.section-chk {
     display: flex;
 
     justify-content: space-between;
     width: 40%;
 }
 
-.div_finalizar{
+.div_finalizar {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: clamp(220px,10vh,50%);
+    height: clamp(220px, 10vh, 50%);
 }
 
-.inp-date{
-    width: clamp(100px,50%,100%);
+.inp-date {
+    width: clamp(100px, 50%, 100%);
 }
 
-.btn-finalizar{
+.btn-finalizar {
     display: flex;
-    width: clamp(200px,7vh,1vh);
-    height: clamp(75px,5vh,1vh);
+    width: clamp(200px, 7vh, 1vh);
+    height: clamp(75px, 5vh, 1vh);
     background-color: #ffb800;
     align-items: center;
     border-radius: 50px;
-    font-size: clamp(16pt,1vh,2.5vh);
+    font-size: clamp(16pt, 1vh, 2.5vh);
     justify-content: center;
     transition: .4s;
     border: 0ch;
 }
-.btn-finalizar:hover{
+
+.btn-finalizar:hover {
     background-color: #f3c95e;
     cursor: pointer;
 }
 
-.voltar{
+.voltar {
     display: flex;
     flex-direction: row;
     height: 20px;
@@ -187,26 +187,33 @@ select{
 
 }
 
-.voltar:hover{
+.voltar:hover {
     color: #35353542;
 }
+
 .text-path {
     color: #83838391;
     font-size: clamp(.3vh, 14pt, 2vh);
     margin: 0%;
 }
 
-form{
+form {
     height: 100%;
     width: 100%;
 }
-h3{
-    font-size: clamp(16pt,1.5vh,3vh);
-    transform: translate(-8vh,1vh);
+
+h3 {
+    font-size: clamp(16pt, 1.5vh, 3vh);
+    transform: translate(-8vh, 1vh);
 }
 
-@media(max-width:576px){
-    .section-left,.section-right{
-        width:100%;
+@media(max-width:768px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .section-left,
+    .section-right {
+        width: 100%;
     }
 }
