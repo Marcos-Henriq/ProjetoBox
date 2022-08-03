@@ -71,7 +71,7 @@ h3 {
 
 .section-left {
     width: 50%;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -88,7 +88,7 @@ h3 {
 
 .section-right {  
     width: 50%;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -130,11 +130,25 @@ input {
 }
 
 select {
-    width: 100% !important;
-    height: clamp(6vh, 40px, 4VH) !important;
-    background-color: #ededeb !important;
+    width: 100%;
+    height: clamp(6vh, 40px, 4VH);
+    background-color: #ededeb;
     outline: 0ch;
 
+}
+.select2.select2-container.select2-container--default{
+    width: 100% !important;
+}
+.select2-container--default .select2-selection--single {
+    border: none;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: flex;
+    align-items: center;
+    width: 100% !important;
+    height: clamp(6vh, 40px, 4VH);
+    background-color: #ededeb;
+    outline: 0ch;
 }
 
 .chk {
