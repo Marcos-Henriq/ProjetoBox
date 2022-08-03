@@ -1,12 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+
 body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     font-family: 'roboto';
     font-weight: 300;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 
 
@@ -31,8 +42,9 @@ body {
 
 .container{
     width: 100%;
-    height:  100%;
+    min-height: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
@@ -45,15 +57,13 @@ h1,h3{
 
 }
 .container-stats{
+
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 20%;
     color: rgb(0, 0, 0);
     width:  clamp(70%,100%,100%);
     align-self: center;
-    font-size: clamp(16pt,8pt,2vh);
-
-
 }
 .stats{
     width: min(40%,1000px);
@@ -62,20 +72,46 @@ h1,h3{
     display: flex;
     justify-content: center;
     align-self: center;
-    font-size: clamp(12pt,8pt,2vh);
-
 }
 
 .section-left{
-    width: 46%;
-    height: 100%;
+    
+    width: 50%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: clamp(50px,5vh,1vh);
+   padding:0rem 2rem;
 
 }
-
+.section-left .input-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+.section-right{
+    width: 50%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0rem 2rem;
+}
+.section-right .input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+.section-right .tpContratacao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
 
 .label{
     font-size: clamp(2vh,16pt,.2vh);
@@ -83,7 +119,7 @@ h1,h3{
 
 input{
     height: clamp(5vh,20px,4vh);
-    width: clamp(80%,40px,90%);
+    width:100%;
     margin: 0%;
     border: 0ch;
     background-color: #ededeb;
@@ -95,27 +131,11 @@ input{
 
 }
 select{
-    width: clamp(80%,40px,90%);
+    width:100%;
     height: clamp(6vh,40px,4VH);
     background-color: #ededeb;
     outline: 0ch;
 
-}
-.section{
-    width: 49%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.section-right{
-    width: 49%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-self: center;
 }
 
 .chk{
@@ -124,12 +144,15 @@ select{
 
 .section-chk{
     display: flex;
+
+    justify-content: space-between;
     width: 40%;
 }
 
 .div_finalizar{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     height: clamp(220px,10vh,50%);
 }
@@ -176,4 +199,14 @@ select{
 form{
     height: 100%;
     width: 100%;
+}
+h3{
+    font-size: clamp(16pt,1.5vh,3vh);
+    transform: translate(-8vh,1vh);
+}
+
+@media(max-width:576px){
+    .section-left,.section-right{
+        width:100%;
+    }
 }
